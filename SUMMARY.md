@@ -1,4 +1,4 @@
-* [Introduction](../../../G1ANT.Addon/blob/develop/G1ANT.Addon.Net/G1ANT.Addon.Net/Addon.md)
+* [Introduction](introduction/DESCRIPTION.md)
   * [Overview](introduction/overview.md)
   * [Features](introduction/features.md)
   * [Requirements](introduction/requirements.md)
