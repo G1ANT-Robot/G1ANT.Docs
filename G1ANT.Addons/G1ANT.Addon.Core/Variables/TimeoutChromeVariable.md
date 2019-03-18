@@ -18,3 +18,4 @@ chrome www.g1ant.com
 ```
 
 In this example the 500ms timeout value is too short to open the browser, so an error message appears.
+

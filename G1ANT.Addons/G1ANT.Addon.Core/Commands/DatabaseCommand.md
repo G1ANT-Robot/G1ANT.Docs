@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-database connection ⟦text⟧
+database connection ⟦text⟧ type ⟦text⟧
 ```
 
 ## Description
@@ -13,6 +13,7 @@ This command allows to establish a connection to an SQL database. If the command
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
 |`connection`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | yes |  | Connection string necessary to establish a database connection (see the strings description below) |
+|`type`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | no | | Type of data provider: `mssql`, `oledb` or `odbc` |
 | `if` | [bool](G1ANT.Language/G1ANT.Language/Structures/BooleanStructure.md) | no       | true                                                        | Executes the command only if a specified condition is true   |
 | `timeout`      | [timespan](G1ANT.Language/G1ANT.Language/Structures/TimeSpanStructure.md) | no       | [♥timeoutdb](G1ANT.Manual/appendices/common-arguments.md) | Specifies time in milliseconds for G1ANT.Robot to wait for a connection |
 | `errorcall`    | [procedure](G1ANT.Language/G1ANT.Language/Structures/ProcedureStructure.md) | no       |                                                             | Name of a procedure to call when the command throws an exception or when a given `timeout` expires |
@@ -26,7 +27,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ```G1ANT
 database ‴Server=myServerAddress;Database=myDataBase;User Id=myUsername;
-Password=myPassword;‴
+Password=myPassword;‴ type mssql
 ```
 
 ### Connection strings description

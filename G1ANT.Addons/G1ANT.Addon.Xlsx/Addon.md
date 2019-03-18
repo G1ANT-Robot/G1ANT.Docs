@@ -4,7 +4,7 @@
 | Name | Description |
 | ---- | ----------- |
 | [xlsx.close](https://github.com/G1ANT-Robot/G1ANT.Addon.Xlsx/blob/master/G1ANT.Addon.Xlsx/Commands/XlsxCloseCommand.md) | This command allows to save changes and close .xlsx file. |
-| [xlsx.countrows](https://github.com/G1ANT-Robot/G1ANT.Addon.Xlsx/blob/master/G1ANT.Addon.Xlsx/Commands/XlsxCountRowCommand.md) | This command allows to count rows in open .xlsx file. |
+| [xlsx.countrows](https://github.com/G1ANT-Robot/G1ANT.Addon.Xlsx/blob/master/G1ANT.Addon.Xlsx/Commands/XlsxCountRowsCommand.md) | This command allows to count rows in open .xlsx file. |
 | [xlsx.find](https://github.com/G1ANT-Robot/G1ANT.Addon.Xlsx/blob/master/G1ANT.Addon.Xlsx/Commands/XlsxFindCommand.md) | This command allows to find address of a cell where specified value is stored. |
 | [xlsx.getvalue](https://github.com/G1ANT-Robot/G1ANT.Addon.Xlsx/blob/master/G1ANT.Addon.Xlsx/Commands/XlsxGetValueCommand.md) | This command allows to get value of specified cell in .xlsx file |
 | [xlsx.open](https://github.com/G1ANT-Robot/G1ANT.Addon.Xlsx/blob/master/G1ANT.Addon.Xlsx/Commands/XlsxOpenCommand.md) | This command allows to open .xlsx files, and set the first sheet in the document as active. |
