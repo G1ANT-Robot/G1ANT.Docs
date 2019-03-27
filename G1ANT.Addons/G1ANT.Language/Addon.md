@@ -20,6 +20,7 @@
 | [dialog](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/DialogCommand.md) | This command allows to display Dialog Box with a custom message. Variables can be used within the message. |
 | [dialog.multiask](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/DialogMultiAskCommand.md) | This command allows to display dialog for user to enter values |
 | [directory](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/DirectoryCommand.md) | This command allows to obtain directory content and attach it to the variable. |
+| [directory.exists](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/DirectoryExistsCommand.md) | This command allows to determine whether a specified directory exists. |
 | [directory.filescount](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/DirectoryFilesCountCommand.md) | Command allows to calculate the number of files of certain file extension,  file name or file directory in specified location |
 | [else](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/ElseCommand.md) | Testing condition. |
 | [variable](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/ExplicitVariableCommand.md) | This command allows to declare new variable and initialize the variable with a value |
@@ -73,14 +74,14 @@
 | [unlock](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/UnlockCommand.md) | This command allows to relese previously acquired lock. |
 | [♥](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/VariableCommand.md) |  |
 | [waitfor.color](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/WaitForColorCommand.md) | This command allows to wait for chosen color to appear in specified position. |
-| [waitfor.file](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/WaitForFileCommand.md) | This command allows to wait for file to appear at specified path. |
+| [waitfor.directory](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/WaitForDirectoryCommand.md) | This command allows to wait for a directory to appear at a specified path. |
+| [waitfor.file](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/WaitForFileCommand.md) | This command allows to wait for a file to appear at a specified path. |
 | [waitfor.window](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/WaitForWindowCommand.md) | Command allows to force window to become foreground window and wait for this action to happens |
 | [while](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/WhileCommand.md) | Repeats inner block until the test condition is false. |
 | [window](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/WindowCommand.md) | This command brings selected window to the front and activates it. |
 | [addon](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/AddonCommand.md) | Command which defining addon used in the script. |
 | [end](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/EndCommand.md) | Ends the block command. |
 | [error](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Commands/ErrorCommand.md) | Command which throws an error. |
-
 
 # All Panels
 
@@ -117,7 +118,6 @@
 | [variable](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Structures/VariableStructure.md) |  |
 | [version](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Structures/VersionStructure.md) |  |
 | [xml](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Structures/XmlStructure.md) | For example: &lt;?xml&gt;&lt;/xml&gt; |
-
 
 # All Triggers
 
@@ -167,7 +167,6 @@
 | [time](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Variables/TimeVariable.md) | Provides current time in the format defined with the timeformat variable. |
 | [context](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Variables/TriggerVariableManager.md) | Context of current process instance. |
 | [task](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Variables/TaskVariable.md) | Dictionary of parameters passed by an invoking trigger. |
-
 
 # All Wizards
 
