@@ -3,7 +3,7 @@
 | Name | Description | Addon |
 | ---- | ----------- | ----- |
 | [Windows Tree](https://github.com/G1ANT-Robot/G1ANT.Addon.UI/blob/master/G1ANT.Addon.UI/Panels/UIControlsPanel.md) |  | [G1ANT.Addon.UI](https://github.com/G1ANT-Robot/G1ANT.Addon.UI/blob/master/G1ANT.Addon.UI/Addon.md) |
-| [Watch](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Panels/WatchPanel.md) | Allows to watch variables and expressions in debug mode. | [G1ANT.Language](https://github.com/G1ANT-Robot/G1ANT.Language/blob/master/G1ANT.Language/Addon.md) |
+| [Watch](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Panels/WatchPanel.md) | Allows to watch variables and expressions in debug mode. | [G1ANT.Addon.Core](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Addon.md) |
 | [Addons](https://github.com/G1ANT-Robot/G1ANT.Robot/blob/master/G1ANT.Robot/Panels/AddonsPanel.md) | Lists all available addons and allows to select and deselect them, turning them on and off. | [G1ANT.Robot](https://github.com/G1ANT-Robot/G1ANT.Robot/blob/master/G1ANT.Robot/Addon.md) |
 | [Commands](https://github.com/G1ANT-Robot/G1ANT.Robot/blob/master/G1ANT.Robot/Panels/CommandsPanel.md) | Lists all available commands and their respective arguments in a separate panel below. You can insert a command into your script by double-clicking it. | [G1ANT.Robot](https://github.com/G1ANT-Robot/G1ANT.Robot/blob/master/G1ANT.Robot/Addon.md) |
 | [Help](https://github.com/G1ANT-Robot/G1ANT.Robot/blob/master/G1ANT.Robot/Panels/HelpPanel.md) | Displays Help topics and content. | [G1ANT.Robot](https://github.com/G1ANT-Robot/G1ANT.Robot/blob/master/G1ANT.Robot/Addon.md) |
