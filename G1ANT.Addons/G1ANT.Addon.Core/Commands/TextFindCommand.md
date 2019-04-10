@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-text.find text ⟦text⟧
+text.find text ⟦text⟧ search ⟦text⟧ search2 ⟦text⟧ search3 ⟦text⟧ regex ⟦text⟧ casesensitivity ⟦bool⟧
 ```
 
 ## Description
@@ -60,7 +60,7 @@ dialog ♥textBefore
 
 ## Example 4
 
-Here’s an example of mixing multiple searches with regex search. The first search returns all characters between “<html>” and “</html>” tags, then between “<crazydiv>” and “</crazydiv>” tags, and finally the regex searches for three consecutive digits inside the result and returns “123”:
+Here’s an example of mixing multiple searches with regex search. The first search returns all characters between `<html>` and `</html>` tags, then between `<crazydiv>` and `</crazydiv>` tags, and finally the regex searches for three consecutive digits inside the result and returns “123”:
 
 ```G1ANT
 ♥html = <html><body>This is fake page With some spaces<crazydiv>`#$**&amp; and special ch`rs !09 <number>123</number>();</crazydiv> '|+</body></html>
