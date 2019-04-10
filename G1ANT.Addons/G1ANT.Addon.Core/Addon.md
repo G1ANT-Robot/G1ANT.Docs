@@ -10,6 +10,7 @@
 | [color](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/ColorCommand.md) | This command retrieves the red, green, blue (RGB) color value of the pixel at the specified coordinates. |
 | [color.expected](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/ColorExpectedCommand.md) | This command allows to check if specified color is on specified position. |
 | [color.find](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/ColorFindCommand.md) | This command allows to capture first pixel in specified direction staring from position that matches specified color |
+| [-](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/CommentCommand.md) |  |
 | [contains](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/ContainsCommand.md) | This command allows to check if a specified dictionary contains an item at a specified key |
 | [continue](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/ContinueCommand.md) | Stops executing current block and goes to next itereation |
 | [dashboard.progress](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/DashboardProgressCommand.md) | This command sets progres of a bot (currently executing process) |
@@ -36,12 +37,14 @@
 | [keyboard.numlock](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/KeyboardNumLockCommand.md) | This command allows to either turn on or off the NumLock key. |
 | [keyboard.scrolllock](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/KeyboardScrollLockCommand.md) | This command allows to either turn on or off the ScrollLock key. |
 | [label](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/LabelCommand.md) | This command allows to navigate and perform &apos;jump&apos; actions within entire process. |
+| [➜](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/LabelWithSpecialCharCommand.md) | This command allows to navigate and perform &apos;jump&apos; actions within entire process. |
 | [list.add](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/ListAddCommand.md) | Creates new list by adding two existing. |
-| [list.create](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/ListCreateCommand.md) | Creates new list based on provided string which contains separators like \&quot;;&apos;/[]\&quot; |
+| [list.create](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/ListCreateCommand.md) | Creates new list based on provided string which contains separators like \&quot;;&apos;/[]\ |
 | [list.indexof](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/ListIndexOfCommand.md) | This command returs index of specified value in defined list. |
 | [list.remove](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/ListRemoveCommand.md) | Removes all specified elements from list |
 | [lock](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/LockCommand.md) | This command allows to wait for specified locking phrase to be available for locking and locks it. |
 | [log.addmessage](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/LogAddMessageCommand.md) | Adds entry to log message table |
+| [⊂](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/MacroBeginCommand.md) |  |
 | [mouse.click](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/MouseClickCommand.md) | This command allows to move mouse cursor to the required position and performs mouse button action. |
 | [mouse](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/MouseCommand.md) | This command allows to set mouse cursor to the required position and performs left or right mouse click. |
 | [mouse.move](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/MouseMoveCommand.md) | This command allows to moves mouse cursor to specified position. |
@@ -62,13 +65,13 @@
 | [test](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/TestCommand.md) | Testing condition. |
 | [text.download](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/TextDownloadCommand.md) | This command allows to download text content from the website and attach it to the variable. |
 | [text.find](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/TextFindCommand.md) | This command allows to search for text within text or variable and assign result to another variable. |
-| [text.matches](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/TextMatchesCommand.md) | This command allows to give you percentage value [0,100] of how much text comply with regexes |
 | [text.read](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/TextReadCommand.md) | This command reads text from a document and assigns it to a variable. |
 | [text.replace](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/TextReplaceCommand.md) | This command allows to replace a string with other value within text or variable and assign result to another variable. |
 | [text.write](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/TextWriteCommand.md) | This command allows writing text directly into the provided file. |
 | [timeout.reset](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/TimeoutResetCommand.md) | This command allows to reset global timeout |
 | [try](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/TryCommand.md) | Command is used to \&quot;catch\&quot; errors that occur in a block. |
 | [unlock](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/UnlockCommand.md) | This command allows to relese previously acquired lock. |
+| [♥](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/VariableCommand.md) |  |
 | [waitfor.color](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/WaitForColorCommand.md) | This command allows to wait for chosen color to appear in specified position. |
 | [waitfor.directory](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/WaitForDirectoryCommand.md) | This command allows to wait for a directory to appear at a specified path. |
 | [waitfor.file](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/WaitForFileCommand.md) | This command allows to wait for a file to appear at a specified path. |

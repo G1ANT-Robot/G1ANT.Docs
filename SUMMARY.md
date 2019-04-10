@@ -278,6 +278,8 @@
       * [ocrgoogle.findpoint](G1ANT.Addons/G1ANT.Addon.Ocr.Google/Commands/OcrGoogleFindPointCommand.md)
       * [ocrgoogle.fromscreen](G1ANT.Addons/G1ANT.Addon.Ocr.Google/Commands/OcrGoogleFromScreenCommand.md)
       * [ocrgoogle.login](G1ANT.Addons/G1ANT.Addon.Ocr.Google/Commands/OcrGoogleLoginCommand.md)
+    * Variables
+      * [timeoutocr](G1ANT.Addons/G1ANT.Addon.Ocr.Google/Variables/TimeoutOcrVariable.md)
   * G1ANT.Addon.Ocr.Tesseract
     * [All Commands](G1ANT.Addons/G1ANT.Addon.OCR.Tesseract/Addon.md)
     * Commands
@@ -308,11 +310,21 @@
   * G1ANT.Addon.Ui
     * [All Commands](G1ANT.Addons/G1ANT.Addon.UI/Addon.md)
     * [UI Addon concept](G1ANT.Addons/G1ANT.Addon.UI/UIAddonConcept.md)
+    * [ui.click](G1ANT.Addons/G1ANT.Addon.UI/UIClickCommand.md)
+    * [ui.getrectangle](G1ANT.Addons/G1ANT.Addon.UI/UIGetRectangleCommand.md)
+    * [ui.gettext](G1ANT.Addons/G1ANT.Addon.UI/UIGetTextCommand.md)
+    * [ui.setfocus](G1ANT.Addons/G1ANT.Addon.UI/UISetFocusCommand.md)
+    * [ui.setroot](G1ANT.Addons/G1ANT.Addon.UI/UISetRootCommand.md)
+    * [ui.settext](G1ANT.Addons/G1ANT.Addon.UI/UISetTextCommand.md)
+    * [waitfor.ui](G1ANT.Addons/G1ANT.Addon.UI/WaitForUICommand.md)
+    * [wpath](G1ANT.Addons/G1ANT.Addon.UI/WPathStructure.md)
   * G1ANT.Addon.Watson
     * [All Commands](G1ANT.Addons/G1ANT.Addon.Watson/Addon.md)
     * Commands
       * [watson.classifyimage](G1ANT.Addons/G1ANT.Addon.Watson/Commands/WatsonClassifyImageCommand.md)
       * [watson.speechtotext](G1ANT.Addons/G1ANT.Addon.Watson/Commands/WatsonSpeechToTextCommand.md)
+    * Variables
+      * [timeoutwatson](G1ANT.Addons/G1ANT.Addon.Watson/Variables/TimeoutWatsonVariable.md)
   * G1ANT.Addon.Xlsx
     * [All Commands](G1ANT.Addons/G1ANT.Addon.Xlsx/Addon.md)
     * Commands
@@ -324,35 +336,6 @@
       * [xlsx.setsheet](G1ANT.Addons/G1ANT.Addon.Xlsx/Commands/XlsxSetSheetCommand.md)
       * [xlsx.setvalue](G1ANT.Addons/G1ANT.Addon.Xlsx/Commands/XlsxSetValueCommand.md)
       * [xlsx.switch](G1ANT.Addons/G1ANT.Addon.Xlsx/Commands/XlsxSwitchCommand.md)
-  * G1ANT.Language
-    * G1ANT.Language
-      * Structures
-        * [attachment](G1ANT.Addons/G1ANT.Language/G1ANT.Language/Structures/AttachmentStructure.md)
-        * [bool](G1ANT.Addons/G1ANT.Language/G1ANT.Language/Structures/BooleanStructure.md)
-        * [date](G1ANT.Addons/G1ANT.Language/G1ANT.Language/Structures/DateStructure.md)
-        * [datetime](G1ANT.Addons/G1ANT.Language/G1ANT.Language/Structures/DateTimeStructure.md)
-        * [error](G1ANT.Addons/G1ANT.Language/G1ANT.Language/Structures/ErrorStructure.md)
-        * [float](G1ANT.Addons/G1ANT.Language/G1ANT.Language/Structures/FloatStructure.md)
-        * [html](G1ANT.Addons/G1ANT.Language/G1ANT.Language/Structures/HtmlStructure.md)
-        * [integer](G1ANT.Addons/G1ANT.Language/G1ANT.Language/Structures/IntegerStructure.md)
-        * [json](G1ANT.Addons/G1ANT.Language/G1ANT.Language/Structures/JsonStructure.md)
-        * [label](G1ANT.Addons/G1ANT.Language/G1ANT.Language/Structures/LabelStructure.md)
-        * [list](G1ANT.Addons/G1ANT.Language/G1ANT.Language/Structures/ListStructure.md)
-        * [mail](G1ANT.Addons/G1ANT.Language/G1ANT.Language/Structures/MailStructure.md)
-        * [point](G1ANT.Addons/G1ANT.Language/G1ANT.Language/Structures/PointStructure.md)
-        * [procedure](G1ANT.Addons/G1ANT.Language/G1ANT.Language/Structures/ProcedureStructure.md)
-        * [rectangle](G1ANT.Addons/G1ANT.Language/G1ANT.Language/Structures/RectangleStructure.md)
-        * [text](G1ANT.Addons/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)
-        * [time](G1ANT.Addons/G1ANT.Language/G1ANT.Language/Structures/TimeStructure.md)
-        * [xml](G1ANT.Addons/G1ANT.Language/G1ANT.Language/Structures/XmlStructure.md)
-    * Structures
-      * [dictionary](G1ANT.Addons/G1ANT.Language/Structures/DictionaryStructure.md)
-      * [money](G1ANT.Addons/G1ANT.Language/Structures/MoneyStructure.md)
-      * [path](G1ANT.Addons/G1ANT.Language/Structures/PathStructure.md)
-      * [timespan](G1ANT.Addons/G1ANT.Language/Structures/TimeSpanStructure.md)
-      * [variable](G1ANT.Addons/G1ANT.Language/Structures/VariableStructure.md)
-  * G1ANT.Robot
-    * [All Commands](G1ANT.Addons/G1ANT.Robot/Addon.md)
 * Appendices
   * [Special Characters](appendices/special-characters/DESCRIPTION.md)
     * [Array Separator](appendices/special-characters/array-separator.md)
