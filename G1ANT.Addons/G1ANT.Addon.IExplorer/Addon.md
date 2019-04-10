@@ -1,5 +1,7 @@
+# Index Of All Addon Elements
 
-# All Commands
+
+ All Commands
 
 | Name | Description |
 | ---- | ----------- |
@@ -21,7 +23,7 @@
 | [ie.waitforcomplete](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/master/G1ANT.Addon.IExplorer/Commands/IEWaitForCompleteCommand.md) | This command waits until page reaches completed state |
 | [ie.waitforvalue](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/master/G1ANT.Addon.IExplorer/Commands/IEWaitForValueCommand.md) | This command keeps on executing specified javascript until specified value is returned |
 
-# All Variables
+ All Variables
 
 | Name | Description |
 | ---- | ----------- |

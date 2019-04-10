@@ -1,5 +1,7 @@
+# Index Of All Addon Elements
 
-# All Commands
+
+ All Commands
 
 | Name | Description |
 | ---- | ----------- |
@@ -9,7 +11,7 @@
 | [image.sharpen](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/master/G1ANT.Addon.Images/Commands/ImageSharpenCommand.md) | This command sharpens image |
 | [waitfor.image](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/master/G1ANT.Addon.Images/Commands/WaitForImageCommand.md) | This command allows to wait for specified image in current screen view. |
 
-# All Variables
+ All Variables
 
 | Name | Description |
 | ---- | ----------- |

@@ -1,5 +1,7 @@
+# Index Of All Addon Elements
 
-# All Commands
+
+ All Commands
 
 | Name | Description |
 | ---- | ----------- |
@@ -7,7 +9,7 @@
 | [end](https://github.com/G1ANT-Robot/G1ANT.Robot/blob/master/G1ANT.Language/Commands/EndCommand.md) | Ends the block command. |
 | [error](https://github.com/G1ANT-Robot/G1ANT.Robot/blob/master/G1ANT.Language/Commands/ErrorCommand.md) | Command which throws an error. |
 
-# All Structures
+ All Structures
 
 | Name | Description |
 | ---- | ----------- |
@@ -37,7 +39,7 @@
 | [version](https://github.com/G1ANT-Robot/G1ANT.Robot/blob/master/G1ANT.Language/Structures/VersionStructure.md) |  |
 | [xml](https://github.com/G1ANT-Robot/G1ANT.Robot/blob/master/G1ANT.Language/Structures/XmlStructure.md) | For example: &lt;?xml&gt;&lt;/xml&gt; |
 
-# All Variables
+ All Variables
 
 | Name | Description |
 | ---- | ----------- |

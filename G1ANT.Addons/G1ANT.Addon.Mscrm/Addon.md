@@ -1,5 +1,7 @@
+# Index Of All Addon Elements
 
-# All Commands
+
+ All Commands
 
 | Name | Description |
 | ---- | ----------- |
@@ -18,13 +20,13 @@
 | [mscrm.stage](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/master/G1ANT.Addon.Mscrm/Commands/MsCrmStage.md) | This command clicks on &apos;Next Stage&apos; link in CRM. |
 | [mscrm.waitforload](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/master/G1ANT.Addon.Mscrm/Commands/MsCrmWaitForLoad.md) |  |
 
-# All Variables
+ All Variables
 
 | Name | Description |
 | ---- | ----------- |
 | [timeoutcrm](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/master/G1ANT.Addon.Mscrm/Variables/TimeoutCrmVariable.md) |  |
 
-# All Wizards
+ All Wizards
 
 | Name | Description |
 | ---- | ----------- |

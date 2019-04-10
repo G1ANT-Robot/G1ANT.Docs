@@ -1,5 +1,7 @@
+# Index Of All Addon Elements
 
-# All Commands
+
+ All Commands
 
 | Name | Description |
 | ---- | ----------- |
@@ -64,7 +66,7 @@
 | [task.include](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/TaskIncludeCommand.md) | This command allows to include a script from different process located on disk.   The script will be populated in the place where command task.include is called. |
 | [test](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/TestCommand.md) | Testing condition. |
 | [text.download](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/TextDownloadCommand.md) | This command allows to download text content from the website and attach it to the variable. |
-| [text.find](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/TextFindCommand.md) | This command allows to search for text within text or variable and assign result to another variable. |
+| [text.find](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/TextFindCommand.md) | This command searches for some text within another text or a variable and assigns the result to a specified variable. |
 | [text.read](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/TextReadCommand.md) | This command reads text from a document and assigns it to a variable. |
 | [text.replace](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/TextReplaceCommand.md) | This command allows to replace a string with other value within text or variable and assign result to another variable. |
 | [text.write](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/TextWriteCommand.md) | This command allows writing text directly into the provided file. |
@@ -79,13 +81,13 @@
 | [while](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/WhileCommand.md) | Repeats inner block until the test condition is false. |
 | [window](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Commands/WindowCommand.md) | This command brings selected window to the front and activates it. |
 
-# All Panels
+ All Panels
 
 | Name | Description |
 | ---- | ----------- |
 | [Watch](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Panels/WatchPanel.md) | Allows to watch variables and expressions in debug mode. |
 
-# All Triggers
+ All Triggers
 
 | Name | Description |
 | ---- | ----------- |
@@ -93,7 +95,7 @@
 | [mail](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Triggers/MailTrigger.md) |  |
 | [schedule](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Triggers/ScheduleTrigger.md) |  |
 
-# All Variables
+ All Variables
 
 | Name | Description |
 | ---- | ----------- |
@@ -131,7 +133,7 @@
 | [timeoutwindow](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Variables/TimeoutWindowVariable.md) | Determines the timeout value for the window command; the default value is 1000 ms. |
 | [time](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Variables/TimeVariable.md) | Provides current time in the format defined with the timeformat variable. |
 
-# All Wizards
+ All Wizards
 
 | Name | Description |
 | ---- | ----------- |

@@ -1,5 +1,7 @@
+# Index Of All Addon Elements
 
-# All Commands
+
+ All Commands
 
 | Name | Description |
 | ---- | ----------- |
@@ -18,7 +20,7 @@
 | [ocrabbyy.readcell](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/master/G1ANT.Addon.Ocr.AbbyyFineReader/Commands/OcrAbbyyReadCellCommand.md) | This command allows to read row column indexed cell from specific table in the document |
 | [ocrabbyy.readtables](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/master/G1ANT.Addon.Ocr.AbbyyFineReader/Commands/OcrAbbyyReadTablesCommand.md) | This command allows to read all tables entries and process it as a list |
 
-# All Structures
+ All Structures
 
 | Name | Description |
 | ---- | ----------- |

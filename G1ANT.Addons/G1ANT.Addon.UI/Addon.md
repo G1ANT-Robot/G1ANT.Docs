@@ -1,5 +1,7 @@
+# Index Of All Addon Elements
 
-# All Commands
+
+ All Commands
 
 | Name | Description |
 | ---- | ----------- |
@@ -11,13 +13,13 @@
 | [ui.settext](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/master/G1ANT.Addon.UI/Commands/UISetTextCommand.md) | Set text of the control of desktop application described by WPathStructure |
 | [waitfor.ui](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/master/G1ANT.Addon.UI/Commands/WaitForUICommand.md) | Wait for the control of desktop application described by WPathStructure |
 
-# All Panels
+ All Panels
 
 | Name | Description |
 | ---- | ----------- |
 | [Windows Tree](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/master/G1ANT.Addon.UI/Panels/UIControlsPanel.md) |  |
 
-# All Structures
+ All Structures
 
 | Name | Description |
 | ---- | ----------- |

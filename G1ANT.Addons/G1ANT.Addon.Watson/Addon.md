@@ -1,5 +1,7 @@
+# Index Of All Addon Elements
 
-# All Commands
+
+ All Commands
 
 | Name | Description |
 | ---- | ----------- |
@@ -7,7 +9,7 @@
 | [watson.login](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/master/G1ANT.Addon.Watson/Commands/WatsonLoginCommand.md) | It allows to specify api-key that is required by IBM Watson system. |
 | [watson.speechtotext](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/master/G1ANT.Addon.Watson/Commands/WatsonSpeechToTextCommand.md) | This command allows to transcript speech from audio file. |
 
-# All Variables
+ All Variables
 
 | Name | Description |
 | ---- | ----------- |

@@ -1,5 +1,7 @@
+# Index Of All Addon Elements
 
-# All Commands
+
+ All Commands
 
 | Name | Description |
 | ---- | ----------- |
@@ -43,7 +45,7 @@
 | [word.save](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/master/G1ANT.Addon.MSOffice/Commands/WordSaveCommand.md) | This command saves currently active word document. |
 | [word.switch](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/master/G1ANT.Addon.MSOffice/Commands/WordSwitchCommand.md) | This command allows to switch between word windows. |
 
-# All Structures
+ All Structures
 
 | Name | Description |
 | ---- | ----------- |

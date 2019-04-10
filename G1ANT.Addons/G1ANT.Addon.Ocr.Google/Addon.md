@@ -1,5 +1,7 @@
+# Index Of All Addon Elements
 
-# All Commands
+
+ All Commands
 
 | Name | Description |
 | ---- | ----------- |
@@ -8,7 +10,7 @@
 | [ocrgoogle.fromscreen](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/master/G1ANT.Addon.Ocr.Google/Commands/OcrGoogleFromScreenCommand.md) | This command allows to capture part of the screen and recognize text from it.  It uses internet connection and external data processing. |
 | [ocrgoogle.login](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/master/G1ANT.Addon.Ocr.Google/Commands/OcrGoogleLoginCommand.md) | This command allows to login to the Google Cloud Service. |
 
-# All Variables
+ All Variables
 
 | Name | Description |
 | ---- | ----------- |
