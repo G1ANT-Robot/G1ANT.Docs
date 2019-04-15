@@ -182,6 +182,8 @@
       * [ie.switch](G1ANT.Addons/G1ANT.Addon.IExplorer/Commands/IESwitchCommand.md)
       * [ie.waitforcomplete](G1ANT.Addons/G1ANT.Addon.IExplorer/Commands/IEWaitForCompleteCommand.md)
       * [ie.waitforvalue](G1ANT.Addons/G1ANT.Addon.IExplorer/Commands/IEWaitForValueCommand.md)
+    * Variables
+      * [timeoutie](G1ANT.Addons/G1ANT.Addon.IExplorer/Variables/TimeoutIEVariable.md)
   * G1ANT.Addon.Images
     * [Index Of All Addon Elements](G1ANT.Addons/G1ANT.Addon.Images/Addon.md)
     * Commands
