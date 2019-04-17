@@ -379,11 +379,11 @@
   * [Common Arguments](appendices/common-arguments.md)
   * [Environment](appendices/environment.md)
   * [RDP Controller](appendices/rdp-controller.md)
+  * [UI Recorder](appendices/ui-recorder.md)  
   * [Including C\# Macros](appendices/including-c-macros.md)
   * [Regex](appendices/regex.md)
   * [Windows Keyboard Shortcuts](appendices/windows-keyboard-shortcuts.md)
   * [Additional Information](appendices/additional-information.md)
-  * [UI Recorder](appendices/ui-recorder.md)
 * Indexes
   * [All Addons](Indexes/Addons.md)
   * [All Commands](Indexes/Commands.md)
