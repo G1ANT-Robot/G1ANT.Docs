@@ -14,7 +14,7 @@ This command searches for some text within another text or a variable and assign
 | -------- | ---- | -------- | ------------- | ----------- |
 |`text`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | yes| |Source text or a variable to be searched|
 |`search, search2, search3`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | no |  |Text to be found in a variable or text|
-|`regex`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | no |  |[Regular expression](G1ANT.Manual/appendices/regex.md) to be found within a variable or text|
+|`regex`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | no |  |[Regular expression](G1ANT.Manual/appendices/regex.md) to be used in order to find a text value |
 |`casesensitivity`| [bool](G1ANT.Language/G1ANT.Language/Structures/BooleanStructure.md) | no | true | Switches case sensitivity on or off |
 | `result`       | [variable](G1ANT.Language/G1ANT.Language/Structures/VariableStructure.md) | no       | `♥result`                                                   | Name of a variable where the command's result will be stored |
 | `if`           | [bool](G1ANT.Language/G1ANT.Language/Structures/BooleanStructure.md) | no       | true                                                        | Executes the command only if a specified condition is true   |

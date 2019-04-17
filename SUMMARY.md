@@ -140,13 +140,13 @@
       * [scrolllock](G1ANT.Addons/G1ANT.Addon.Core/Variables/ScrollLockVariable.md)
       * [timeformat](G1ANT.Addons/G1ANT.Addon.Core/Variables/TimeFormatVariable.md)
       * [timeoutchrome](G1ANT.Addons/G1ANT.Addon.Core/Variables/TimeoutChromeVariable.md)
-      * [timeoutcolorexpected](G1ANT.Addons/G1ANT.Addon.Core/Variables/TimeoutColorExpectedVariable.md)
       * [timeoutcommand](G1ANT.Addons/G1ANT.Addon.Core/Variables/TimeoutCommandVariable.md)
       * [timeoutfiledelete](G1ANT.Addons/G1ANT.Addon.Core/Variables/TimeoutFileDeleteVariable.md)
       * [timeoutfiledownload](G1ANT.Addons/G1ANT.Addon.Core/Variables/TimeoutFileDownloadVariable.md)
       * [timeoutfileexists](G1ANT.Addons/G1ANT.Addon.Core/Variables/TimeoutFileExistsVariable.md)
       * [timeoutprogram](G1ANT.Addons/G1ANT.Addon.Core/Variables/TimeoutProgramVariable.md)
       * [timeout](G1ANT.Addons/G1ANT.Addon.Core/Variables/TimeoutVariable.md)
+      * [timeoutwaitforcolor](G1ANT.Addons/G1ANT.Addon.Core/Variables/TimeoutWaitForColorVariable.md)
       * [timeoutwindow](G1ANT.Addons/G1ANT.Addon.Core/Variables/TimeoutWindowVariable.md)
       * [time](G1ANT.Addons/G1ANT.Addon.Core/Variables/TimeVariable.md)
   * G1ANT.Addon.Googledocs
@@ -383,6 +383,7 @@
   * [Regex](appendices/regex.md)
   * [Windows Keyboard Shortcuts](appendices/windows-keyboard-shortcuts.md)
   * [Additional Information](appendices/additional-information.md)
+  * [UI Recorder](appendices/ui-recorder.md)
 * Indexes
   * [All Addons](Indexes/Addons.md)
   * [All Commands](Indexes/Commands.md)

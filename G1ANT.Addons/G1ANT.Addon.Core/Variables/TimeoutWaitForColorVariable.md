@@ -1,9 +1,9 @@
-# timeoutcolorexpected
+# timeoutwaitforcolor
 
 ## Syntax
 
 ```G1ANT
-♥timeoutcolorexpected = ⟦timespan⟧
+♥timeoutwaitforcolorexpected = ⟦timespan⟧
 ```
 
 ## Description
@@ -13,7 +13,7 @@ Determines the timeout value (in ms) for the [waitfor.color](G1ANT.Language/G1AN
 ## Example
 
 ```G1ANT
-♥timeoutcolorexpected = 300
+♥timeoutwaitforcolor = 300
 ♥position = 10⫽20
 color position ♥position result ♥color
 ♥color = ♥color + 1

@@ -25,10 +25,10 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This example captures a screenshot and saves it to the `abc.jpg` file. The full path to a file is then displayed in a dialog box:
+This example captures a screenshot and saves it to the `abc.png` file. The full path to a file is then displayed in a dialog box:
 
 ```G1ANT
-screenshot path screen.jpg result ♥path
+screenshot screen.png result ♥path
 dialog ♥path
 ```
 
