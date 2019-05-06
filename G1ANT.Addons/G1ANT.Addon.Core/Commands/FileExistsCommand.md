@@ -24,19 +24,20 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-Using the `timeout`,  `errorcall` and ` errorjump` arguments, you can make the robot wait for a file to appear and in case the file doesn’t show up, other commands can be executed:
+The following script checks if the *test.txt* file is present on the user’s Desktop. If it is, a dialog box with an appropriate message is displayed. If it’s not, the `notFound` procedure is called, which displays *“File not found”* error message and stops the process:
 
 ```G1ANT
-file.exists ♥environment⟦USERPROFILE⟧\Documents\test.txt timeout 1000 errorjump notFound
+file.exists ♥environment⟦USERPROFILE⟧\Documents\test.txt errorcall notFound
 dialog ‴File exists‴
 
 procedure notFound
     dialog ‴File not found‴
+    stop
 end
 ```
 
 The robot can also display a simple message, if it can’t find the specified file:
 
 ```G1ANT
-file.exists C:\\test.txt errormessage ‴Sorry, I could not find file‴
+file.exists ♥environment⟦USERPROFILE⟧\Documents\test.txt errormessage ‴Sorry, I could not find a file‴
 ```

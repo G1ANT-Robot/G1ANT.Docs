@@ -1,22 +1,21 @@
-# directory.filescount
+# shell
 
 ## Syntax
 
 ```G1ANT
-directory.filescount path ⟦text⟧ pattern ⟦text⟧  
+shell command ⟦text⟧
 ```
 
 ## Description
 
-This command returns the number of files of certain extension, name or directory in the specified location. 
+This command executes command line instructions.
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
-|`path`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | yes | | Path to the directory where G1ANT.Robot should count files |
-|`pattern`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | no |  | Allows to filter results, e.g. file extensions, file names etc. Type “directory” to get directories only |
+|`command`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | yes |  | Command line instructions to be executed |
 | `result`       | [variable](G1ANT.Language/G1ANT.Language/Structures/VariableStructure.md) | no       | `♥result`                                                   | Name of a variable where the command's result will be stored |
 | `if`           | [bool](G1ANT.Language/G1ANT.Language/Structures/BooleanStructure.md) | no       | true                                                        | Executes the command only if a specified condition is true   |
-| `timeout`      | [timespan](G1ANT.Language/G1ANT.Language/Structures/TimeSpanStructure.md) | no       | [♥timeoutcommand](G1ANT.Manual/appendices/common-arguments.md) | Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
+| `timeout`      | [timespan](G1ANT.Language/G1ANT.Language/Structures/TimeSpanStructure.md) | no       | [♥timeoutprogram](G1ANT.Addon.Core/Variables/TimeoutProgramVariable.md) | Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
 | `errorcall`    | [procedure](G1ANT.Language/G1ANT.Language/Structures/ProcedureStructure.md) | no       |                                                             | Name of a procedure to call when the command throws an exception or when a given `timeout` expires |
 | `errorjump`    | [label](G1ANT.Language/G1ANT.Language/Structures/LabelStructure.md) | no       |                                                             | Name of the label to jump to when the command throws an exception or when a given `timeout` expires |
 | `errormessage` | [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | no       |                                                             | A message that will be shown in case the command throws an exception or when a given `timeout` expires, and no `errorjump` argument is specified |
@@ -26,10 +25,9 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This example shows how to enumerate files with *.docx* extension located on the user’s Desktop:
+In the script below the robot executes the `ipconfig /all` command in the command line and returns its result — full detailed information about all network connections — in the default `♥result` variable, which is displayed in a dialog box:
 
 ```G1ANT
-directory.filescount path ♥environment⟦USERPROFILE⟧\Desktop pattern *.docx result ♥number
-dialog ♥number 
+shell ‴ipconfig /all‴
+dialog ♥result
 ```
-

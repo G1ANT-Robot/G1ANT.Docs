@@ -1,22 +1,28 @@
-# directory.filescount
+# mouse
 
 ## Syntax
 
 ```G1ANT
-directory.filescount path ⟦text⟧ pattern ⟦text⟧  
+mouse position ⟦point⟧ button ⟦text⟧ relative ⟦bool⟧
 ```
 
 ## Description
 
-This command returns the number of files of certain extension, name or directory in the specified location. 
+This command moves mouse cursor to the required position and performs a left or a right click.
+
+The click action can be combined with a key press action in the `button` argument by adding `+` and the name of a key to the mouse button name. Available keys:
+
+- `+shift`
+- `+control` or `+ctrl`
+- `+windows` or `+win`
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
-|`path`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | yes | | Path to the directory where G1ANT.Robot should count files |
-|`pattern`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | no |  | Allows to filter results, e.g. file extensions, file names etc. Type “directory” to get directories only |
-| `result`       | [variable](G1ANT.Language/G1ANT.Language/Structures/VariableStructure.md) | no       | `♥result`                                                   | Name of a variable where the command's result will be stored |
+|`position`| [point](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Structures/point.md) | yes |  | Screen coordinates at which a mouse click will be performed |
+|`button`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | no | left | Mouse button to be clicked: `left` or `right`. Can be combined with a key press action: `+shift`, `+ctrl`, `+win` |
+|`relative`| [bool](G1ANT.Language/G1ANT.Language/Structures/BooleanStructure.md) | no | true | If set to true, the mouse position is relative to the active window |
 | `if`           | [bool](G1ANT.Language/G1ANT.Language/Structures/BooleanStructure.md) | no       | true                                                        | Executes the command only if a specified condition is true   |
-| `timeout`      | [timespan](G1ANT.Language/G1ANT.Language/Structures/TimeSpanStructure.md) | no       | [♥timeoutcommand](G1ANT.Manual/appendices/common-arguments.md) | Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
+| `timeout`      | [timespan](G1ANT.Language/G1ANT.Language/Structures/TimeSpanStructure.md) | no       | [♥timeoutcommand](G1ANT.Language/G1ANT.Addon.Core/Variables/TimeoutCommandVariable.md) | Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
 | `errorcall`    | [procedure](G1ANT.Language/G1ANT.Language/Structures/ProcedureStructure.md) | no       |                                                             | Name of a procedure to call when the command throws an exception or when a given `timeout` expires |
 | `errorjump`    | [label](G1ANT.Language/G1ANT.Language/Structures/LabelStructure.md) | no       |                                                             | Name of the label to jump to when the command throws an exception or when a given `timeout` expires |
 | `errormessage` | [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | no       |                                                             | A message that will be shown in case the command throws an exception or when a given `timeout` expires, and no `errorjump` argument is specified |
@@ -26,10 +32,10 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This example shows how to enumerate files with *.docx* extension located on the user’s Desktop:
+This example shows how to use the `mouse` command to perform a left click with **Shift** key pressed on the first icon on the Windows Desktop (usually it’s the Recycle Bin):
 
 ```G1ANT
-directory.filescount path ♥environment⟦USERPROFILE⟧\Desktop pattern *.docx result ♥number
-dialog ♥number 
+keyboard ⋘WIN+D⋙
+mouse 36⫽30 button left+shift relative false
 ```
 

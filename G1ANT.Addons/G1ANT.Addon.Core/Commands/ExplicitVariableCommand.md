@@ -1,20 +1,20 @@
-# directory.filescount
+# variable
 
 ## Syntax
 
 ```G1ANT
-directory.filescount path ⟦text⟧ pattern ⟦text⟧  
+variable name ⟦text⟧ value ⟦undefined⟧ type ⟦text⟧
 ```
 
 ## Description
 
-This command returns the number of files of certain extension, name or directory in the specified location. 
+This command allows to declare a new variable and assign a value to it.
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
-|`path`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | yes | | Path to the directory where G1ANT.Robot should count files |
-|`pattern`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | no |  | Allows to filter results, e.g. file extensions, file names etc. Type “directory” to get directories only |
-| `result`       | [variable](G1ANT.Language/G1ANT.Language/Structures/VariableStructure.md) | no       | `♥result`                                                   | Name of a variable where the command's result will be stored |
+|`name`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | yes |  | Name of a variable to be initialized |
+|`value`|                                                              | yes |  | Value to assign to a variable |
+|`type`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | no |  | Type of a value to be assigned |
 | `if`           | [bool](G1ANT.Language/G1ANT.Language/Structures/BooleanStructure.md) | no       | true                                                        | Executes the command only if a specified condition is true   |
 | `timeout`      | [timespan](G1ANT.Language/G1ANT.Language/Structures/TimeSpanStructure.md) | no       | [♥timeoutcommand](G1ANT.Manual/appendices/common-arguments.md) | Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
 | `errorcall`    | [procedure](G1ANT.Language/G1ANT.Language/Structures/ProcedureStructure.md) | no       |                                                             | Name of a procedure to call when the command throws an exception or when a given `timeout` expires |
@@ -26,10 +26,26 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This example shows how to enumerate files with *.docx* extension located on the user’s Desktop:
+This example declares a variable named *x* and assigns it a value of 100:
 
 ```G1ANT
-directory.filescount path ♥environment⟦USERPROFILE⟧\Desktop pattern *.docx result ♥number
-dialog ♥number 
+variable x value 100
 ```
+
+If you run the script and take a look at the Variables panel below the script editor, you will see that the robot automatically assigned [*integer*](G1ANT.Language/G1ANT.Language/Structures/IntegerStructure.md) structure to the variable.
+
+Now try this:
+
+```G1ANT
+variable x value 100.1
+```
+
+This time the robot recognized the value as a floating point number, so it correctly assigned [*float*](G1ANT.Language/G1ANT.Language/Structures/FloatStructure.md) structure to the variable.
+
+When you want the variable to be of other type — [*text*](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md), for example — just explicitly declare it with the `type` argument:
+
+```G1ANT
+variable x value 100.1 type text
+```
+
 

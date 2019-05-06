@@ -32,5 +32,5 @@ In this simple example the `while` loop will be executed as long as the `♥inde
 while ♥index<5
    dialog ♥index
    ♥index = ♥index + 1
-end while
+end
 ```

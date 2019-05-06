@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-list.add list ⟦list⟧ toadd ⟦list⟧
+list.add list ⟦list⟧ toadd ⟦undefined⟧
 ```
 
 ## Description

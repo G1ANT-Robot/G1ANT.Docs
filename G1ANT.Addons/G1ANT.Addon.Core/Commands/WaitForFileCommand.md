@@ -24,7 +24,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-The following script waits 10 seconds for the `test.txt` file to appear on the user’s Desktop. If the file is there, a dialog box is displayed. If it isn’t, an error message pops up.
+The following script waits 10 seconds for the *test.txt* file to appear on the user’s Desktop. If the file is found within the given timespan, a dialog box is displayed. If it isn’t, an error message pops up:
 
 ```G1ANT
 waitfor.file path ♥environment⟦USERPROFILE⟧\Desktop\test.txt timeout 10000 errormessage ‴No file!‴

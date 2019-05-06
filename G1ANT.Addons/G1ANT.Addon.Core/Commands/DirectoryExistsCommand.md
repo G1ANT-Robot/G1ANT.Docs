@@ -1,20 +1,18 @@
-# directory.filescount
+# directory.exists
 
 ## Syntax
 
 ```G1ANT
-directory.filescount path ⟦text⟧ pattern ⟦text⟧  
+directory.exists path ⟦text⟧ 
 ```
 
 ## Description
 
-This command returns the number of files of certain extension, name or directory in the specified location. 
+This command determines whether a specified directory exists.
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
-|`path`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | yes | | Path to the directory where G1ANT.Robot should count files |
-|`pattern`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | no |  | Allows to filter results, e.g. file extensions, file names etc. Type “directory” to get directories only |
-| `result`       | [variable](G1ANT.Language/G1ANT.Language/Structures/VariableStructure.md) | no       | `♥result`                                                   | Name of a variable where the command's result will be stored |
+|`path`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | yes |  | Path to the expected directory |
 | `if`           | [bool](G1ANT.Language/G1ANT.Language/Structures/BooleanStructure.md) | no       | true                                                        | Executes the command only if a specified condition is true   |
 | `timeout`      | [timespan](G1ANT.Language/G1ANT.Language/Structures/TimeSpanStructure.md) | no       | [♥timeoutcommand](G1ANT.Manual/appendices/common-arguments.md) | Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
 | `errorcall`    | [procedure](G1ANT.Language/G1ANT.Language/Structures/ProcedureStructure.md) | no       |                                                             | Name of a procedure to call when the command throws an exception or when a given `timeout` expires |
@@ -26,10 +24,10 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This example shows how to enumerate files with *.docx* extension located on the user’s Desktop:
+The following script checks if the *Test* directory is present on the user’s Desktop. If it is, a dialog box with an appropriate message is displayed. If it’s not, an error message *“Directory not found”* appears and the process stops:
 
 ```G1ANT
-directory.filescount path ♥environment⟦USERPROFILE⟧\Desktop pattern *.docx result ♥number
-dialog ♥number 
+directory.exists ♥environment⟦USERPROFILE⟧\Desktop\Test errormessage ‴Directory not found‴
+dialog ‴Directory exists‴
 ```
 

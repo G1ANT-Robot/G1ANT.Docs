@@ -12,7 +12,7 @@ This command moves mouse cursor to the required position and performs a mouse bu
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
-|`position`| [point](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Structures/point.md) | yes |  | XY coordinates of mouse cursor position before executing a button click |
+|`position`| [point](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Structures/point.md) | yes |  | Screen coordinates of a mouse cursor position before executing a button click |
 |`button`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | no | left | Mouse button to be pressed: `left`, `middle`, `right`, `xbutton1` or `xbutton2` |
 |`relative`| [bool](G1ANT.Language/G1ANT.Language/Structures/BooleanStructure.md) | no | true | If set to true, the mouse position is relative to the active window |
 |`type`| [text](G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | no | press | Button action type: `down`, `up` or `press` |

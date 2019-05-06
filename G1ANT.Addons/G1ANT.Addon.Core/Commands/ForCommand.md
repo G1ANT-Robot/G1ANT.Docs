@@ -33,5 +33,5 @@ In this example the `♥idx` counter variable starts with the value of 1 in the 
 ```G1ANT
 for counter ♥idx from 1 to 10 step 3
    dialog ♥idx
-end for
+end
 ```
