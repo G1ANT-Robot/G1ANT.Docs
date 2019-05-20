@@ -28,6 +28,11 @@
     * [All Mixed Up](G1ANT.Tutorials/For%20Beginners/130.md)
     * [Variables As List Parameters](G1ANT.Tutorials/For%20Beginners/140.md)
     * [A Loop for Each List](G1ANT.Tutorials/For%20Beginners/150.md)
+    * [What If?](G1ANT.Tutorials/For%20Beginners/160.md)
+    * [What Else?](G1ANT.Tutorials/For%20Beginners/170.md)
+    * [User Inputs, Robot Checks](G1ANT.Tutorials/For%20Beginners/180.md)
+    * [Type Mismatch](G1ANT.Tutorials/For%20Beginners/190.md)
+    * [Try Again](G1ANT.Tutorials/For%20Beginners/200.md)
 * G1ANT Language
   * [Introduction](g1ant-language/01-introduction.md)
   * [Basics](g1ant-language/02-language-basics.md)
@@ -322,7 +327,7 @@
       * [selenium.switch](G1ANT.Addons/G1ANT.Addon.Selenium/Commands/SeleniumSwitchCommand.md)
       * [selenium.type](G1ANT.Addons/G1ANT.Addon.Selenium/Commands/SeleniumTypeCommand.md)
       * [selenium.waitforvalue](G1ANT.Addons/G1ANT.Addon.Selenium/Commands/SeleniumWaitForValueCommand.md)
-  * G1ANT.Addon.Ui
+  * G1ANT.Addon.UI
     * [Index Of All Addon Elements](G1ANT.Addons/G1ANT.Addon.UI/Addon.md)
     * Commands
       * [ui.click](G1ANT.Addons/G1ANT.Addon.UI/Commands/UIClickCommand.md)
