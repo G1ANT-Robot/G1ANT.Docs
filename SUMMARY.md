@@ -401,7 +401,7 @@
   * [Environment](appendices/environment.md)
   * [RDP Controller](appendices/rdp-controller.md)
   * [UI Recorder](appendices/ui-recorder.md)  
-  * [Including C\# Macros](appendices/including-c-macros.md)
+  * [Including C# Macros](appendices/including-c-macros.md)
   * [Regex](appendices/regex.md)
   * [Windows Keyboard Shortcuts](appendices/windows-keyboard-shortcuts.md)
   * [Additional Information](appendices/additional-information.md)
