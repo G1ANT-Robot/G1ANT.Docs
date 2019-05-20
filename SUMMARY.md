@@ -324,15 +324,16 @@
       * [selenium.waitforvalue](G1ANT.Addons/G1ANT.Addon.Selenium/Commands/SeleniumWaitForValueCommand.md)
   * G1ANT.Addon.Ui
     * [Index Of All Addon Elements](G1ANT.Addons/G1ANT.Addon.UI/Addon.md)
-    * [UI Addon concept](G1ANT.Addons/G1ANT.Addon.UI/UIAddonConcept.md)
-    * [ui.click](G1ANT.Addons/G1ANT.Addon.UI/UIClickCommand.md)
-    * [ui.getrectangle](G1ANT.Addons/G1ANT.Addon.UI/UIGetRectangleCommand.md)
-    * [ui.gettext](G1ANT.Addons/G1ANT.Addon.UI/UIGetTextCommand.md)
-    * [ui.setfocus](G1ANT.Addons/G1ANT.Addon.UI/UISetFocusCommand.md)
-    * [ui.setroot](G1ANT.Addons/G1ANT.Addon.UI/UISetRootCommand.md)
-    * [ui.settext](G1ANT.Addons/G1ANT.Addon.UI/UISetTextCommand.md)
-    * [waitfor.ui](G1ANT.Addons/G1ANT.Addon.UI/WaitForUICommand.md)
-    * [wpath](G1ANT.Addons/G1ANT.Addon.UI/WPathStructure.md)
+    * Commands
+      * [ui.click](G1ANT.Addons/G1ANT.Addon.UI/Commands/UIClickCommand.md)
+      * [ui.getrectangle](G1ANT.Addons/G1ANT.Addon.UI/Commands/UIGetRectangleCommand.md)
+      * [ui.gettext](G1ANT.Addons/G1ANT.Addon.UI/Commands/UIGetTextCommand.md)
+      * [ui.setfocus](G1ANT.Addons/G1ANT.Addon.UI/Commands/UISetFocusCommand.md)
+      * [ui.setroot](G1ANT.Addons/G1ANT.Addon.UI/Commands/UISetRootCommand.md)
+      * [ui.settext](G1ANT.Addons/G1ANT.Addon.UI/Commands/UISetTextCommand.md)
+      * [waitfor.ui](G1ANT.Addons/G1ANT.Addon.UI/Commands/WaitForUICommand.md)
+    * Structures
+      * [wpath](G1ANT.Addons/G1ANT.Addon.UI/Structures/WPathStructure.md)
   * G1ANT.Addon.Watson
     * [Index Of All Addon Elements](G1ANT.Addons/G1ANT.Addon.Watson/Addon.md)
     * Commands
