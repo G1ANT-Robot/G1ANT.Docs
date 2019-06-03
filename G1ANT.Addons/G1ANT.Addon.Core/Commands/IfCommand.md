@@ -25,10 +25,9 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 The `if` command may also contain other commands: `else if` and `else`.
 
-If the first condition after the `if` command is not met, the robot will check whether the next condition after the `else if` command is met. It will repeat these actions as many times as there are `else if` commands in the block between the `if` and `end` commands, or if one condition is finally met (then the robot will execute the block between the `else` commands).
+If the first condition after the `if` command is not met, the robot will start checking conditions in the `else if` commands that follow — the first one that is met will cause execution of its command block and leaving the `if`…`end` block.
 
-If no condition is met, the robot will execute the command block between the `else` and `end` commands.
-See the example below for a clearer picture of how it works.
+If no `else if` condition is met, the robot will execute the command block between the `else` and the `end` commands or will simply leave the `if`…`end` block if no `else` command is provided. See the example below for a clearer picture of how it works.
 
 ## Example
 

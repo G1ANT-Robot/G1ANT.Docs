@@ -327,7 +327,7 @@
       * [selenium.switch](G1ANT.Addons/G1ANT.Addon.Selenium/Commands/SeleniumSwitchCommand.md)
       * [selenium.type](G1ANT.Addons/G1ANT.Addon.Selenium/Commands/SeleniumTypeCommand.md)
       * [selenium.waitforvalue](G1ANT.Addons/G1ANT.Addon.Selenium/Commands/SeleniumWaitForValueCommand.md)
-  * G1ANT.Addon.UI
+  * G1ANT.Addon.Ui
     * [Index Of All Addon Elements](G1ANT.Addons/G1ANT.Addon.UI/Addon.md)
     * Commands
       * [ui.click](G1ANT.Addons/G1ANT.Addon.UI/Commands/UIClickCommand.md)
