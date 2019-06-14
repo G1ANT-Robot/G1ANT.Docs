@@ -226,7 +226,7 @@ In case of this exercise, you need your variables to be of `float` structure, be
 
 Insert these lines at the end of the `scrapQuotes` procedure and run the script again. This time it should execute flawlessly. Remember that the `googlesheet.` commands work silently in the background, directly communicating with the Google Sheets documents without launching your default browser. Open your Google Sheets document to see the results.
 
-If everything is OK, save your script (use a common **Ctrl+S** keyboard shortcut or click the ![](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/save.jpg)%20icon) under whatever name you want and wherever you want. Be sure to remember where it was saved, though. You will need this file soon.
+If everything is OK, save your script (use a common **Ctrl+S** keyboard shortcut or click the ![](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/save.jpg) icon) under whatever name you want and wherever you want. Be sure to remember where it was saved, though. You will need this file soon.
 
 ## Robot Scheduling
 
