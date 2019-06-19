@@ -8,7 +8,7 @@
 
 ## Description
 
-Provides access to environment variables, where `index` is the name of an [environment variable](G1ANT.Manual/appendices/environment.md) (eg. APPDATA, COMPUTERNAME, HOMEDRIVE).
+Provides access to environment variables, where `index` is the name of an [environment variable](G1ANT.Manual/appendices/environment.md) (e.g., APPDATA, COMPUTERNAME, HOMEDRIVE).
 
 ## Example
 

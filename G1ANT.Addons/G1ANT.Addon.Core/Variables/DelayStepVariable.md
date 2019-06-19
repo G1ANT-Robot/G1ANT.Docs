@@ -8,7 +8,32 @@
 
 ## Description
 
-Determines the delay value (in ms) for a command to proceed; the default value is 500.
+Determines the delay value (in ms) before the next command is executed; the default value is 500.
+
+The variable applies to the following commands:
+
+- `as400.open`
+- `chrome`
+- `keyboard`
+- `mouse`
+- `outlook.close`
+- `outlook.findmails`
+- `outlook.newmessage`
+- `outlook.open`
+- `program`
+- `vnc.connect`
+- `waitfor.window`
+- `watson.speechtotext`			
+- `window`
+- `word.close`
+- `word.export`
+- `word.gettext`
+- `word.inserttext`
+- `word.open`
+- `word.replace`
+- `word.runmacro`
+- `word.save`
+- `word.switch`
 
 ## Example
 

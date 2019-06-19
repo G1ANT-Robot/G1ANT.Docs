@@ -8,7 +8,7 @@
 
 ## Description
 
-Defines a date display format (eg. dd-MM-yyyy, dd.MM.yy, MM/dd/yy).
+Defines a date display format (e.g., dd-MM-yyyy, dd.MM.yy, MM/dd/yy).
 
 ## Example
 

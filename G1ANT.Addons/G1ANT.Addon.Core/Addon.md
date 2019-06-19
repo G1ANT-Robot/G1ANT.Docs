@@ -104,11 +104,11 @@
 | [clipboard](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Variables/ClipboardVariable.md) | Reads clipboard content or inserts new content into clipboard |
 | [context](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Variables/ContextVariable.md) | Context of current process instance. |
 | [credential](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Variables/CredentialVariable.md) | Reads the value of a specified key stored in the Credential Container |
-| [dateformat](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Variables/DateFormatVariable.md) | Defines a date display format (eg |
+| [dateformat](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Variables/DateFormatVariable.md) | Defines a date display format (e.g., dd-MM-yyyy, dd.MM.yy, MM/dd/yy) |
 | [date](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Variables/DateVariable.md) | Provides current date in the format defined with the `♥dateformat` variable |
 | [delayseconds](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Variables/DelaySecondsVariable.md) | Determines the time value (in seconds) for the delay command; the default value is 1 |
-| [delaystep](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Variables/DelayStepVariable.md) | Determines the delay value (in ms) for a command to proceed; the default value is 500 |
-| [environment](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Variables/Environmentvariable.md) | Provides access to environment variables, where `index` is the name of an environment variable (eg |
+| [delaystep](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Variables/DelayStepVariable.md) | Determines the delay value (in ms) before the next command is executed; the default value is 500 |
+| [environment](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Variables/Environmentvariable.md) | Provides access to environment variables, where `index` is the name of an environment variable (e.g., APPDATA, COMPUTERNAME, HOMEDRIVE) |
 | [executingtime](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Variables/ExecutingTimeVariable.md) | Gives current script&apos;s execution time in `hh:mm:ss.ms` format until the variable was read |
 | [instance](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Variables/InstanceVariable.md) | Dictionary of parameters related to current process instance. |
 | [keyboardwait](https://github.com/G1ANT-Robot/G1ANT.Addon.Core/blob/master/G1ANT.Addon.Core/Variables/KeyboardWaitVariable.md) | When the value is `true`, the robot executing the `keyboard` command waits for another keystroke |
