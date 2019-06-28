@@ -8,7 +8,7 @@
 
 ## Description
 
-Determines the timeout value (in ms) for the [image.find](G1ANT.Addon/G1ANT.Addon.Images/G1ANT.Addon.Images/Commands/ImageFindCommand.md) and [waifor.image](G1ANT.Addon/G1ANT.Addon.Images/G1ANT.Addon.Images/Commands/WaitforImageCommand.md) commands; the default value is 20000 (20 seconds).
+Determines the timeout value (in ms) for the [image.find](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/develop/G1ANT.Addon.Images/G1ANT.Addon.Images/Commands/ImageFindCommand.md) and [waifor.image](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/develop/G1ANT.Addon.Images/G1ANT.Addon.Images/Commands/WaitforImageCommand.md) commands; the default value is 20000 (20 seconds).
 
 ## Example
 

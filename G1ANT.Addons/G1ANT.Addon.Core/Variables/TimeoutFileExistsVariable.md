@@ -8,7 +8,7 @@
 
 ## Description
 
-Determines the timeout value (in ms) for the [file.exists](../indexes/commands/file.exists.md) command; the default value is 10000 (10 seconds).
+Determines the timeout value (in ms) for the [file.exists](](https://manual.g1ant.com/link/G1ANT.Addon.Core-1/G1ANT.Addon.Core/indexes/commands/file.exists.md)) command; the default value is 10000 (10 seconds).
 
 ## Example
 

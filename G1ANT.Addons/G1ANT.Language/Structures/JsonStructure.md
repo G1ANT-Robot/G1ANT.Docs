@@ -1,6 +1,6 @@
 # json
 
-This structure stores the content of imported JSON files. A JSON file can be imported as text into G1ANT.Robot using the [`text.read`](G1ANT.Addon.Core/G1ANT.Addon.Core/Commands/TextReadCommand.md) command. It can be then converted to the json structure to enable various operations on the data.
+This structure stores the content of imported JSON files. A JSON file can be imported as text into G1ANT.Robot using the [`text.read`](](https://manual.g1ant.com/link/G1ANT.Addon.Core/G1ANT.Addon.Core/Commands/TextReadCommand.md)) command. It can be then converted to the json structure to enable various operations on the data.
 
 ## Example
 

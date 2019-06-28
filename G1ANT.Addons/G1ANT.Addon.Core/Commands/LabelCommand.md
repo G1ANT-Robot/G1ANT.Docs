@@ -8,7 +8,7 @@ label ⟦label⟧
 
 ## Description
 
-This command defines a place anywhere in the script code that can be navigated to with the [`jump`](JumpCommand.md) command.
+This command defines a place anywhere in the script code that can be navigated to with the [`jump`](](https://manual.g1ant.com/link/G1ANT.Addon.Core-1/G1ANT.Addon.Core/Commands/JumpCommand.md)) command.
 
 ## Example
 

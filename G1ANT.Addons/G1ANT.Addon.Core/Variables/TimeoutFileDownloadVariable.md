@@ -8,7 +8,7 @@
 
 ## Description
 
-Determines the timeout value (in ms) for the [file.download](G1ANT.Language/G1ANT.Addon.Core/Commands/FileDownloadCommand.md) command; the default value is 10000 (10 seconds).
+Determines the timeout value (in ms) for the [file.download](](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Addon.Core/Commands/FileDownloadCommand.md)) command; the default value is 10000 (10 seconds).
 
 ## Example
 

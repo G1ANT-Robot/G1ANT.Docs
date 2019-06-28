@@ -8,7 +8,7 @@
 
 ## Description
 
-Determines the timeout value (in ms) for the [vnc.connect](G1ANT.Addon/G1ANT.Addon.Net/G1ANT.Addon.Net/Commands/VncConnectCommand.md) command; the default value is 10000 (10 seconds).
+Determines the timeout value (in ms) for the [vnc.connect](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/develop/G1ANT.Addon.Net/G1ANT.Addon.Net/Commands/VncConnectCommand.md) command; the default value is 10000 (10 seconds).
 
 ## Example
 

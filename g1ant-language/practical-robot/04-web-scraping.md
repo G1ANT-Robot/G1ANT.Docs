@@ -30,7 +30,7 @@ Alright, you found the node, where Yahoo! puts the quote to be displayed on thei
 
 You could translate it into: find a branch with `"quote-header-info"` ID, then enter the branch of the third `div` element in this branch, go down its first `div` element, then again down the first `div` element inside and stop at the first `span` element. It’s easier to understand this by looking at the element tree in the browser’s inspection pane:
 
-![](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/xpath.png)
+![](/-assets/xpath.png)
 
 Time for some practicing: go to [OANDA](https://www.oanda.com/currency/live-exchange-rates/) and [Bloomberg](https://www.bloomberg.com/quote/EURUSD:CUR) and do the same hunting for XPaths to EUR/USD quotes. Do you notice that OANDA has a bit different way of presenting the data? Their quotes combine three elements with different formatting for a better readability. Therefore, you will have to use two XPaths to get the full quote (the third element is responsible for the fifth decimal number, which is unnecessary in case of this exercise).
 
@@ -198,7 +198,7 @@ Sheet happens: the Robot encounters a problem right after it opens your Google S
 
 Data structure (type) is the culprit. The `selenium.gettext` command literally gets text and if you take a closer look at the Variables panel, the resulting variables `♥oanda`, `♥yahoo` and `♥bloomberg` are of `text` structure.
 
-![](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/webscrap-variables.png)
+![](/-assets/webscrap-variables.png)
 
 It doesn’t impose any problems as long as you don’t want to use this variables in places where numbers are expected, not text. Unfortunately for you, the `googlesheet.setvalue` command uses number values by default. You can bypass this requirement with the `numeric` argument set to `false` (eg. `googlesheet.setvalue B2 value ♥oanda numeric false`), but if you would want to use the data in your sheet for further processing, it’s really a bad idea — you can’t perform any mathematical operations on text.
 
@@ -226,7 +226,7 @@ In case of this exercise, you need your variables to be of `float` structure, be
 
 Insert these lines at the end of the `scrapQuotes` procedure and run the script again. This time it should execute flawlessly. Remember that the `googlesheet.` commands work silently in the background, directly communicating with the Google Sheets documents without launching your default browser. Open your Google Sheets document to see the results.
 
-If everything is OK, save your script (use a common **Ctrl+S** keyboard shortcut or click the ![](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/save.jpg) icon) under whatever name you want and wherever you want. Be sure to remember where it was saved, though. You will need this file soon.
+If everything is OK, save your script (use a common **Ctrl+S** keyboard shortcut or click the ![](/-assets/save.jpg) icon) under whatever name you want and wherever you want. Be sure to remember where it was saved, though. You will need this file soon.
 
 ## Robot Scheduling
 
@@ -263,7 +263,7 @@ When there is no way to use variables for storing values, as in the case of trig
 
 In case of this exercise, you would want to have a file for storing information on the spreadsheet column that was used last time the script was triggered. This column letter would be retrieved when the script is run, so that the next column would be used for the current process.
 
-You already know the `text.` family of commands from the [second exercise](02-unsubscribe-me.md) of Practical Robot chapter. You will use the `text.read` and `text.write` commands to read the previous column letter from a file and write the current one, overwriting the file’s existing content.
+You already know the `text.` family of commands from the [second exercise](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/develop/g1ant-language/practical-robot/02-unsubscribe-me.md) of Practical Robot chapter. You will use the `text.read` and `text.write` commands to read the previous column letter from a file and write the current one, overwriting the file’s existing content.
 
 Start with defining the name for your log file and assigning it to a variable:
 
@@ -286,7 +286,7 @@ The log file content is read and assigned to the `♥prevCol` variable. In the n
 
 Splendid, but what about the log file when the robot script is run for the first time? There is none, so either you have to create it manually before you run the script, or you can robotize this job as well using the `file.exists` command. It will check whether a log file exists, and if it’s not there, the command would normally show an error, but you can be smart and leverage that.
 
-The `file.exists` command shares [common arguments](G1ANT.Manual/appendices/common-arguments.md) with four error handlers: `errorcall`, `errorjump`, `errormessage` and `errorresult`. They step in when an error occurs, and the first two are the perfect choice for executing special code in case something goes wrong.
+The `file.exists` command shares [common arguments](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/develop/appendices/common-arguments.md) with four error handlers: `errorcall`, `errorjump`, `errormessage` and `errorresult`. They step in when an error occurs, and the first two are the perfect choice for executing special code in case something goes wrong.
 
 If your `file.exists` command couldn’t find the log file and you’d use the `errorjump` argument, the robot would jump to the label, where it would create a new log file. But after creating this file, the robot wouldn’t get back, but would rather continue executing lines of code placed after the labeled block. It means that you would have to put the labeled block right after the line the `CheckColumn` procedure was called. And what about the column letter processing, which is still inside the procedure?
 
@@ -332,7 +332,7 @@ end
 
 The cell addresses are now created by composing the current column index and a number: B2, B3, B4, then C2, C3, C4 and so on.
 
-It would be great to know when these quotes were scraped — for example, you could have a time stamp given in hours and minutes as the title of a column, so you could easily track changes in your spreadsheet. No problem! You can use the `♥date` [special variable](G1ANT.Manual/appendices/special-variables.md), which provides current date and time, but for your purposes limited to hours and minutes — and this is done with another special variable, `♥dateformat`, which defines a date display format for the `♥date` variable.
+It would be great to know when these quotes were scraped — for example, you could have a time stamp given in hours and minutes as the title of a column, so you could easily track changes in your spreadsheet. No problem! You can use the `♥date` [special variable](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/develop/appendices/special-variables.md), which provides current date and time, but for your purposes limited to hours and minutes — and this is done with another special variable, `♥dateformat`, which defines a date display format for the `♥date` variable.
 
 Just add this line to the list of declared variables:
 

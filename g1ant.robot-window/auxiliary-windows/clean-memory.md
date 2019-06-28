@@ -2,5 +2,5 @@
 
 This tool allows to free RAM memory. This window can be accessed from `Tools/Clean Memory` menu:
 
-![](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/clean-memory.jpg)
+![](/-assets/clean-memory.jpg)
 

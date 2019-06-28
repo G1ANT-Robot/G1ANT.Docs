@@ -291,17 +291,24 @@
     * [Index Of All Addon Elements](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Addon.md)
     * Commands
       * [ocrabbyy.close](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Commands/OcrAbbyyCloseCommand.md)
+      * [ocrabbyy.exportxml](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Commands/OcrAbbyyExportXmlCommand.md)
       * [ocrabbyy.filter](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Commands/OcrAbbyyFilterCommand.md)
       * [ocrabbyy.find](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Commands/OcrAbbyyFindCommand.md)
       * [ocrabbyy.fromscreen](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Commands/OcrAbbyyFromScreenCommand.md)
       * [ocrabbyy.getcellinfo](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Commands/OcrAbbyyGetCellInfoCommand.md)
       * [ocrabbyy.getdocument](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Commands/OcrAbbyyGetDocumentCommand.md)
       * [ocrabbyy.gettableposition](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Commands/OcrAbbyyGetTablePositionCommand.md)
+      * [ocrabbyy.gettextparagraphs](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Commands/OcrAbbyyGetTextParagraphsCommand.md)
       * [ocrabbyy.plaintext](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Commands/OcrAbbyyPlainTextCommand.md)
       * [ocrabbyy.processfile](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Commands/OcrAbbyyProcessFileCommand.md)
       * [ocrabbyy.processscreen](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Commands/OcrAbbyyProcessScreenCommand.md)
       * [ocrabbyy.readcell](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Commands/OcrAbbyyReadCellCommand.md)
       * [ocrabbyy.readtables](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Commands/OcrAbbyyReadTablesCommand.md)
+    * Structures
+      * [abbyycell](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyCellStructure.md)
+      * [abbyydocument](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyDocumentStructure.md)
+      * [abbyypage](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyPageStructure.md)
+      * [abbyyrow](G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyRowStructure.md)
   * G1ANT.Addon.Ocr.Google
     * [Index Of All Addon Elements](G1ANT.Addons/G1ANT.Addon.Ocr.Google/Addon.md)
     * Commands

@@ -22,11 +22,11 @@ text.find ♥source search Name:✱Surname: result ♥name
 dialog ♥name
 ```
 
-![img](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/search1_v1.png)
+![img](/-assets/search1_v1.png)
 
 ### Example 2
 
-When there are more elements matching your query, the result is a list. More on lists [here](array-separator.md).
+When there are more elements matching your query, the result is a list. More on lists [here](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/develop/appendices/special-characters/array-separator.md).
 
 ```G1ANT
 ♥source = ‴Name: John Surname: Smith Name: Alfred Surname: Smith‴
@@ -34,5 +34,5 @@ text.find ♥source search Name:✱Surname: result ♥name
 dialog ♥name
 ```
 
-![](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/search2.png)
+![](/-assets/search2.png)
 

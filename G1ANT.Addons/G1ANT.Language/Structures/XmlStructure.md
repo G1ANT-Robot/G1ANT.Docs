@@ -1,6 +1,6 @@
 # xml
 
-This structure stores the content of imported XML files as text into G1ANT.Robot using the [`text.read`](G1ANT.Addon.Core/G1ANT.Addon.Core/Commands/TextReadCommand.md) command. It can be then converted to the xml structure to enable various operations on the data.
+This structure stores the content of imported XML files as text into G1ANT.Robot using the [`text.read`](](https://manual.g1ant.com/link/G1ANT.Addon.Core/G1ANT.Addon.Core/Commands/TextReadCommand.md)) command. It can be then converted to the xml structure to enable various operations on the data.
 
 ## Example
 

@@ -23,4 +23,4 @@ keyboard ♥text
 keyboard ⋘shift+up⋙
 ```
 
-![img](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/text.png)
+![img](/-assets/text.png)

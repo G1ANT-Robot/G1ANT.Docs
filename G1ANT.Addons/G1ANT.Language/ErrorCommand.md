@@ -8,7 +8,7 @@ error error ⟦error⟧
 
 ## Description
 
-This command allows error handling using variables of [error](G1ANT.Language/G1ANT.Language/Structures/ErrorStructure.md) structure.
+This command allows error handling using variables of [error](](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/ErrorStructure.md)) structure.
 
 ## Example
 

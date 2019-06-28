@@ -8,7 +8,7 @@
 
 ## Description
 
-Determines the time (in ms) between the execution of consecutive [keyboard](G1ANT.Language/G1ANT.Addon.Core/Commands/KeyboardCommand.md) commands; the default value is 10.
+Determines the time (in ms) between the execution of consecutive [keyboard](](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Addon.Core/Commands/KeyboardCommand.md)) commands; the default value is 10.
 
 ## Example
 

@@ -16,9 +16,9 @@ How does it work? When you start typing, IntelliSense looks for matches in the l
 
 For example, start typing `program` in the script editor. With every letter, the suggested list of matching entries narrows down: five items in the list after you type “p”, then just three, when you press “r”, and when you reach “g”, there’s only `program` left to choose. But IntelliSense doesn’t stop there: after selecting an item from the suggested options, you are prompted with further language elements — arguments then their values. In case of the `program` command, when you pick it and press space, you will see a list of nine arguments available for that command along with their descriptions in tooltips:
 
-![](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/suggestions1.png)
+![](/-assets/suggestions1.png)
 
-![](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/suggestions2.png)
+![](/-assets/suggestions2.png)
 
 This way, not only you don’t make obvious typo mistakes, but also create code with correct syntax and learn how to use G1ANT.Language efficiently.
 
@@ -26,13 +26,13 @@ Remember that whenever the list with suggestions disappears, you can reactivate 
 
 ### Panels
 
-Panels are another helpful and handy element of G1ANT.Robot user interface. We described them in detail in the [other part](../g1ant.robot-window/panels.md) of this manual, so you can learn about them there. In a nutshell, these are lists of objects available in G1ANT.Language (there are panels containing other information, but we won’t discuss them now). You can have them displayed, so that you will see what commands (and their arguments), structures, variables and symbols you have at your disposal and fingers.
+Panels are another helpful and handy element of G1ANT.Robot user interface. We described them in detail in the [other part](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/develop/g1ant.robot-window/panels.md) of this manual, so you can learn about them there. In a nutshell, these are lists of objects available in G1ANT.Language (there are panels containing other information, but we won’t discuss them now). You can have them displayed, so that you will see what commands (and their arguments), structures, variables and symbols you have at your disposal and fingers.
 
 ### Keyboard shortcuts
 
 They help you to work faster — simple as that. Instead of moving around menus and clicking, use keystroke combinations to get what you want in a fraction of time. Keyboard shortcuts for menu items are shown next to them in the menus, and next to special characters in Symbols panel. For example, instead of navigating to `Edit/Find` menu for a Find tool, you can simply press **Ctrl+F** keys.
 
-You can also find all [common keyboard shortcuts](../appendices/windows-keyboard-shortcuts.md) (typical for Windows and its applications) as well as Windows key shortcuts in our Appendices section.
+You can also find all [common keyboard shortcuts](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/develop/appendices/windows-keyboard-shortcuts.md) (typical for Windows and its applications) as well as Windows key shortcuts in our Appendices section.
 
 ## Language Syntax
 
@@ -54,7 +54,7 @@ A command can be simple, one-word, like `dialog` or extended, like `selenium.ope
 
 Each family of commands has its special ‘activities’. Once you start typing the command inside the script editor window, a list of available activities will pop up, as you can see below:
 
-![](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/selenium.png)
+![](/-assets/selenium.png)
 
 ### Argument
 
@@ -108,7 +108,7 @@ The special character ♥ is the prefix for all variables in G1ANT.Language. You
 
 ### Example
 
-Copy and paste this code into the script editor, then run the robot by pressing **F9** key or clicking Run ![img](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/run.jpg) icon on the toolbar:
+Copy and paste this code into the script editor, then run the robot by pressing **F9** key or clicking Run ![img](/-assets/run.jpg) icon on the toolbar:
 
 ```G1ANT
 ♥number = 2
@@ -282,11 +282,11 @@ First, you have to select the right window:
 window ✱notepad
 ```
 
-> This command will work correctly only when there’s just one Notepad window open. If you have more of them, you must precisely specify the window you want to use, e.g. `window ‴Untitled - Notepad‴`. The full list of open windows titles is available in [All Windows](../g1ant.robot-window/auxiliary-windows/all-windows.md) tool (`Tools/Windows` menu or **Ctrl+W**).
+> This command will work correctly only when there’s just one Notepad window open. If you have more of them, you must precisely specify the window you want to use, e.g. `window ‴Untitled - Notepad‴`. The full list of open windows titles is available in [All Windows](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/develop/g1ant.robot-window/auxiliary-windows/all-windows.md) tool (`Tools/Windows` menu or **Ctrl+W**).
 
 With Notepad window selected, tell the robot to move the cursor close to the letter “a”, click and start selecting.
 
-Wait, how can you determine the mouse cursor position? Don’t worry, we have you covered: use the [Mouse Position](../g1ant.robot-window/auxiliary-windows/mouse-position.md) tool (`Insert/Mouse Position` menu or **Ctrl+E**) after you type the `mouse.click` command. Answer “No” in the dialog box, since you want a relative coordinates, point your cursor to the right place and click. The tool will insert the resulting position as an argument for you:
+Wait, how can you determine the mouse cursor position? Don’t worry, we have you covered: use the [Mouse Position](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/develop/g1ant.robot-window/auxiliary-windows/mouse-position.md) tool (`Insert/Mouse Position` menu or **Ctrl+E**) after you type the `mouse.click` command. Answer “No” in the dialog box, since you want a relative coordinates, point your cursor to the right place and click. The tool will insert the resulting position as an argument for you:
 
 ```G1ANT
 mouse.click ⟦point⟧41⫽70 type down
@@ -323,4 +323,4 @@ keyboard ⋘CTRL+V⋙
 
 Run this process with **F9** key and be proud of yourself!
 
-*If you want to learn more about all commands used in this chapter, please refer to their individual descriptions in the [Commands](../indexes/Commands.md) section of this manual.*
+*If you want to learn more about all commands used in this chapter, please refer to their individual descriptions in the [Commands](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/develop/indexes/Commands.md) section of this manual.*

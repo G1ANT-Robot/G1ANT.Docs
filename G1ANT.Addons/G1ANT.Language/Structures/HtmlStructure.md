@@ -2,7 +2,7 @@
 
 This structure stores values of imported HTML files.
 
-A HTML file can be imported using the [`text.read`](G1ANT.Addon.Core/G1ANT.Addon.Core/Commands/TextReadCommand.md) command. It is imported as text by default, but can then be converted to the html structure to enable various operations on the data.
+A HTML file can be imported using the [`text.read`](](https://manual.g1ant.com/link/G1ANT.Addon.Core/G1ANT.Addon.Core/Commands/TextReadCommand.md)) command. It is imported as text by default, but can then be converted to the html structure to enable various operations on the data.
 
 ## Example
 
