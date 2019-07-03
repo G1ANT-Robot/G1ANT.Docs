@@ -4,8 +4,8 @@ This structure stores information about the attachment to a mail message, which 
 
 | Field      | Type                                                         | Description                         |
 | ---------- | ------------------------------------------------------------ | ----------------------------------- |
-| `filename` | [text](](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md))  | The filename of the attachment      |
-| `size`     | [integer](](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/IntegerStructure.md)) | The size of the attachment in bytes |
+| `filename` | [text](../../G1ANT.Language/Structures/TextStructure.md)  | The filename of the attachment      |
+| `size`     | [integer](../../G1ANT.Language/Structures/IntegerStructure.md) | The size of the attachment in bytes |
 
 ## Example
 
@@ -25,4 +25,4 @@ foreach ♥email in ♥emails
 end
 ```
 
-Note that two other Outlook structures are used here as well: [outlookfolder](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/develop/G1ANT.Addon.MSOffice/G1ANT.Addon.MSOffice/Structures/outlookfolderstructure.md) (for the `♥inboxFolder` variable) and [outlookmail](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/develop/G1ANT.Addon.MSOffice/G1ANT.Addon.MSOffice/Structures/outlookmailstructure.md) (for the `♥email` variable).
+Note that two other Outlook structures are used here as well: [outlookfolder](../G1ANT.Addon.MSOffice/Structures/outlookfolderstructure.md) (for the `♥inboxFolder` variable) and [outlookmail](../G1ANT.Addon.MSOffice/Structures/outlookmailstructure.md) (for the `♥email` variable).

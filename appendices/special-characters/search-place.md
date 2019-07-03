@@ -26,7 +26,7 @@ dialog ♥name
 
 ### Example 2
 
-When there are more elements matching your query, the result is a list. More on lists [here](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/develop/appendices/special-characters/array-separator.md).
+When there are more elements matching your query, the result is a list. More on lists [here](array-separator.md).
 
 ```G1ANT
 ♥source = ‴Name: John Surname: Smith Name: Alfred Surname: Smith‴

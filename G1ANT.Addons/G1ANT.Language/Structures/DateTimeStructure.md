@@ -22,7 +22,7 @@ You can declare datetime variables in the following ways:
 ♥myDate = ⟦datetime⟧10/05/2018 12:4:8
 ```
 
-This sets the date and time for a variable. As with the [`date`](](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/DateStructure.md)) structure, you can either use `/` , `-`, `,` or `.` separator characters for the date, but the default format is MM/dd/yyyy.
+This sets the date and time for a variable. As with the [`date`](DateStructure.md) structure, you can either use `/` , `-`, `,` or `.` separator characters for the date, but the default format is MM/dd/yyyy.
 
 ```G1ANT
 ♥myDate = ⟦datetime⟧12:4:8

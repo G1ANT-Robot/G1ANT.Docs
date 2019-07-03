@@ -17,7 +17,7 @@ When defining, make sure to:
 
 ## Example 1
 
-In the following example a procedure named `test` displays a simple message in a dialog box. Even though the procedure is defined at the beginning of the script, a dialog box displaying *Hi!* will pop up first, because the procedure is executed only when it’s called with the [`call`](](https://manual.g1ant.com/link/G1ANT.Addon.Core-1/G1ANT.Addon.Core/Commands/CallCommand.md)) command.
+In the following example a procedure named `test` displays a simple message in a dialog box. Even though the procedure is defined at the beginning of the script, a dialog box displaying *Hi!* will pop up first, because the procedure is executed only when it’s called with the [`call`](CallCommand.md) command.
 
 When the procedure ends, the script execution is continued from the place where the procedure was called. This is why another message, *Bye!*, is displayed.
 

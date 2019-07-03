@@ -1,6 +1,6 @@
 # dictionary
 
-The dictionary structure stores a dictionary entry, which is a key-value pair separated with an [array separator](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/develop/appendices/special-characters/array-separator.md) (❚). Dictionaries are used in databases, for example.
+The dictionary structure stores a dictionary entry, which is a key-value pair separated with an [array separator](../../../appendices/special-characters/array-separator.md) (❚). Dictionaries are used in databases, for example.
 
 ## Example
 

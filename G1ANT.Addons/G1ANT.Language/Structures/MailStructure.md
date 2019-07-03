@@ -1,5 +1,5 @@
 # mail
-This structure stores current information about a mail message, which was downloaded with the [`mail.imap`](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/develop/G1ANT.Addon.Net/G1ANT.Addon.Net/Commands/MailImapCommand.md) command. The mail structure contains several fields such as:
+This structure stores current information about a mail message, which was downloaded with the [`mail.imap`](../../G1ANT.Addon.Net/G1ANT.Addon.Net/Commands/MailImapCommand.md) command. The mail structure contains several fields such as:
 
 | Field | Type| Description |
 | -------- |------ | ---- |
@@ -12,7 +12,7 @@ This structure stores current information about a mail message, which was downlo
 |`content`|text| Content of the message |
 |`date`|text| Date of the message |
 |`priority`|integer| Priority of the message |
-|`attachments`|list| Returns a list of elements of the [attachment](](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/attachmentstructure.md)) structure allowing to manage attachments |
+|`attachments`|list| Returns a list of elements of the [attachment](attachmentstructure.md) structure allowing to manage attachments |
 |`isreply`|bool| Is the message a reply |
 
 ## Example

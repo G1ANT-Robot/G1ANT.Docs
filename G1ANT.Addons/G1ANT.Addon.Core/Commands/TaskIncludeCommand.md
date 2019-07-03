@@ -14,7 +14,7 @@ The full filepath can be specified or just the filename — by default, the comm
 
 | Name | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
-|`filepath`| [text](](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)) | yes |  | Full path or a name (if a file is located in G1ANT.Robot folder) to a file with the script to be included |
+|`filepath`| [text](../../G1ANT.Language/Structures/TextStructure.md) | yes |  | Full path or a name (if a file is located in G1ANT.Robot folder) to a file with the script to be included |
 
 ## Example
 

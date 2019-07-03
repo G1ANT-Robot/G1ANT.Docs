@@ -1,6 +1,6 @@
 # point
 
-This structure stores pixel coordinates values. It uses `x⫽y` format, where XY values are separated with the [point separator](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/develop/appendices/special-characters/point-separator.md) character (⫽), and has two fields:
+This structure stores pixel coordinates values. It uses `x⫽y` format, where XY values are separated with the [point separator](../../../appendices/special-characters/point-separator.md) character (⫽), and has two fields:
 
 | Field | Type    | Description          |
 | ----- | ------- | -------------------- |

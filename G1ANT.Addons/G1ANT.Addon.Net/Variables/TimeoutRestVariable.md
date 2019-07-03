@@ -8,7 +8,7 @@
 
 ## Description
 
-Determines the timeout value (in ms) for the [rest](https://github.com/G1ANT-Robot/G1ANT.Addon/blob/develop/G1ANT.Addon.Net/G1ANT.Addon.Net/Commands/RestCommand.md) command; the default value is 5000 (5 seconds).
+Determines the timeout value (in ms) for the [rest](../G1ANT.Addon.Net/Commands/RestCommand.md) command; the default value is 5000 (5 seconds).
 
 ## Example
 

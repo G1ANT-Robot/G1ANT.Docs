@@ -8,7 +8,7 @@
 
 ## Description
 
-Reads the value of a specified key stored in the [Credential Container](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/develop/g1ant.robot-window/auxiliary-windows/credential-container.md).
+Reads the value of a specified key stored in the [Credential Container](../../../g1ant.robot-window/auxiliary-windows/credential-container.md).
 
 ## Example
 

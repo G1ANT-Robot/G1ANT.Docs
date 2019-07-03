@@ -8,7 +8,7 @@
 
 ## Description
 
-Determines the time value (in seconds) for the [delay](](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Addon.Core/Commands/DelayCommand.md)) command; the default value is 1.
+Determines the time value (in seconds) for the [delay](../Commands/DelayCommand.md) command; the default value is 1.
 
 ## Example
 
