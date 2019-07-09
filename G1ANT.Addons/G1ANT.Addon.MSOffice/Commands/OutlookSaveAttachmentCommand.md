@@ -12,7 +12,7 @@ This command saves an attachment to a file.
 
 | Argument       | Type                                                         | Required | Default Value                                                | Description                                                  |
 | -------------- | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| `attachment`   | [outlookattachment](../G1ANT.Addon.MSOffice/Structures/OutlookAttachmentStructure.md) | yes      |                                                              | Email attachment to be saved                                 |
+| `attachment`   | [outlookattachment](../Structures/OutlookAttachmentStructure.md) | yes      |                                                              | Email attachment to be saved                                 |
 | `path`         | [path](../../G1ANT.Language/Structures/PathStructure.md) | yes      |                                                              | Path to the saved file                                       |
 | `if`           | [bool](../../G1ANT.Language/Structures/BooleanStructure.md) | no       | true                                                         | Executes the command only if a specified condition is true   |
 | `timeout`      | [timespan](../../G1ANT.Language/Structures/TimeSpanStructure.md) | no       | [♥timeoutcommand](../../G1ANT.Addon.Core/Variables/TimeoutCommandVariable.md) | Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |

@@ -9,7 +9,7 @@ The attachment structure stores current information about a mail attachment, whi
 | `path` | text | Path to the downloaded attachment on the local machine (in a temporary folder) |
 
 ## Example
-This example shows how to download an attachment using the [`mail.imap`](../../G1ANT.Addon.Net/G1ANT.Addon.Net/Commands/MailImapCommand.md) command and save it on the desktop:
+This example shows how to download an attachment using the [`mail.imap`](../../G1ANT.Addon.Net/Commands/MailImapCommand.md) command and save it on the desktop:
 
 ```G1ANT
 ♥host = yourmailhost

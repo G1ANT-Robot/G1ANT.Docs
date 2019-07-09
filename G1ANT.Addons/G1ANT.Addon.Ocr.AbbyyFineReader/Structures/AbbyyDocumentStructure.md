@@ -4,7 +4,7 @@ This structure stores documents processed with Abbyy FineReader OCR engine and h
 
 | Field   | Type    | Description                                                  |
 | ------- | ------- | ------------------------------------------------------------ |
-| `pages` | list    | List of all pages in a document; each list element is of [abbyypage](../G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyPageStructure.md) structure |
+| `pages` | list    | List of all pages in a document; each list element is of [abbyypage](AbbyyPageStructure.md) structure |
 | `count` | integer | Total number of pages in a document                          |
 
 ## Example

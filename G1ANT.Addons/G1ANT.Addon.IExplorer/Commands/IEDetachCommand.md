@@ -35,4 +35,4 @@ ie.detach
 ie.switch ♥id1
 ```
 
-> **Note:** Before using this command, the [`ie.attach`](../G1ANT.Addon.IExplorer/Commands/IEAttachCommand.md) or the [`ie.open`](../G1ANT.Addon.IExplorer/Commands/IEOpenCommand.md) command has to be executed.
+> **Note:** Before using this command, the [`ie.attach`](IEAttachCommand.md) or the [`ie.open`](IEOpenCommand.md) command has to be executed.

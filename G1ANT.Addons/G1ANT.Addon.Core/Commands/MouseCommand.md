@@ -18,7 +18,7 @@ The click action can be combined with a key press action in the `button` argumen
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
-|`position`| [point](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Structures/point.md) | yes |  | Screen coordinates at which a mouse click will be performed |
+|`position`| [point](../../G1ANT.Language/Structures/PointStructure.md) | yes |  | Screen coordinates at which a mouse click will be performed |
 |`button`| [text](../../G1ANT.Language/Structures/TextStructure.md) | no | left | Mouse button to be clicked: `left` or `right`. Can be combined with a key press action: `+shift`, `+ctrl`, `+win` |
 |`relative`| [bool](../../G1ANT.Language/Structures/BooleanStructure.md) | no | true | If set to true, the mouse position is relative to the active window |
 | `if`           | [bool](../../G1ANT.Language/Structures/BooleanStructure.md) | no       | true                                                        | Executes the command only if a specified condition is true   |

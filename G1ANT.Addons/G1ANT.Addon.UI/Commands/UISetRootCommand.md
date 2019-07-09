@@ -12,7 +12,7 @@ This command sets a root window, to which other UI elements will refer to by WPa
 
 | Argument       | Type                                                         | Required | Default Value                                                | Description                                                  |
 | -------------- | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| `wpath`        | [wpath](../G1ANT.Addon.UI/Structures/WPathStructure.md) | yes      |                                                              | Desktop application window to be referred to                 |
+| `wpath`        | [wpath](../Structures/WPathStructure.md) | yes      |                                                              | Desktop application window to be referred to                 |
 | `if`           | [bool](../../G1ANT.Language/Structures/BooleanStructure.md) | no       | true                                                         | Executes the command only if a specified condition is true   |
 | `timeout`      | [timespan](../../G1ANT.Language/Structures/TimeSpanStructure.md) | no       | [♥timeoutcommand](../../G1ANT.Addon.Core/Variables/TimeoutCommandVariable.md) | Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
 | `errorcall`    | [procedure](../../G1ANT.Language/Structures/ProcedureStructure.md) | no       |                                                              | Name of a procedure to call when the command throws an exception or when a given `timeout` expires |

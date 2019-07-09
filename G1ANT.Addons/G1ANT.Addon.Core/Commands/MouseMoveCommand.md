@@ -14,7 +14,7 @@ This command moves a mouse cursor to the specified position.
 | -------- | ---- | -------- | ------------- | ----------- |
 |`position`| [point](../../G1ANT.Language/Structures/PointStructure.md) | yes |  | XY coordinates of a pixel to move a mouse cursor to |
 |`relative`| [bool](../../G1ANT.Language/Structures/BooleanStructure.md) | no | true | If set to `true`, the position is relative to the active window |
-|`wait`| [integer](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Structures/integer.md) | no |  | Determines time in milliseconds between mouse 'jumps' to the specified position |
+|`wait`| [integer](../../G1ANT.Language/Structures/IntegerStructure.md) | no |  | Determines time in milliseconds between mouse 'jumps' to the specified position |
 | `if`           | [bool](../../G1ANT.Language/Structures/BooleanStructure.md) | no       | true                                                        | Executes the command only if a specified condition is true   |
 | `timeout`      | [timespan](../../G1ANT.Language/Structures/TimeSpanStructure.md) | no       | [♥timeoutcommand](../Variables/TimeoutCommandVariable.md) | Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
 | `errorcall`    | [procedure](../../G1ANT.Language/Structures/ProcedureStructure.md) | no       |                                                             | Name of a procedure to call when the command throws an exception or when a given `timeout` expires |

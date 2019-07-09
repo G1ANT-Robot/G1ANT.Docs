@@ -14,7 +14,7 @@ This command retrieves information about a table cell and returns its coordinate
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
-|`documentid`| [integer](../../G1ANT.Language/Structures/IntegerStructure.md) | no | | ID of a processed document. If not specified, last processed document is used |
+|`documentid`| [integer](../../G1ANT.Language/Structures/IntegerStructure.md) | no | | ID of a processed document. If not specified, the last processed document is used |
 |`tableindex`| [integer](../../G1ANT.Language/Structures/IntegerStructure.md) | no | 1 | Index of a table in a document |
 |`position`| [text](../../G1ANT.Language/Structures/TextStructure.md) | yes | | Position of the cell in the table in `X,Y` format, where `X` means row number and `Y` — column index (number) |
 | `result`       | [variable](../../G1ANT.Language/Structures/VariableStructure.md) | no       | `♥result`                                                   | Name of a variable where the command's result will be stored |
@@ -29,7 +29,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-In order to use the `ocrabbyy.getcellinfo` command, it’s necessary to process the file first with the [`ocrabbyy.processfile`](../G1ANT.Addon.Ocr.AbbyyFineReader/Commands/OcrAbbyyProcessFileCommand.md) command. This example gets an information about a cell located at the row 1, column 3:
+In order to use the `ocrabbyy.getcellinfo` command, it’s necessary to process the file first with the [`ocrabbyy.processfile`](OcrAbbyyProcessFileCommand.md) command. This example gets an information about a cell located at the row 1, column 3:
 
 ```G1ANT
 ocrabbyy.processfile path ♥environment⟦USERPROFILE⟧\Tests\document6.jpg result ♥file1

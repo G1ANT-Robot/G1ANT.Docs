@@ -29,4 +29,4 @@ excel.open
 excel.close
 ```
 
-This script opens two Excel instances, then closes the one that is currently active — the last opened, in this case. Note that G1ANT.Robot will close recently used instance of Excel document without asking to save changes. In order to save changes, you need to use the [`excel.save`](../G1ANT.Addon.MSOffice/Commands/ExcelSaveCommand.md) command.
+This script opens two Excel instances, then closes the one that is currently active — the last opened, in this case. Note that G1ANT.Robot will close recently used instance of Excel document without asking to save changes. In order to save changes, you need to use the [`excel.save`](ExcelSaveCommand.md) command.

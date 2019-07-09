@@ -25,4 +25,4 @@ foreach ♥email in ♥unreademails
 end
 ```
 
-Note that another Outlook structure is used here as well: [outlookmail](../G1ANT.Addon.MSOffice/Structures/outlookmailstructure.md) (for the `♥email` variable).
+Note that another Outlook structure is used here as well: [outlookmail](outlookmailstructure.md) (for the `♥email` variable).

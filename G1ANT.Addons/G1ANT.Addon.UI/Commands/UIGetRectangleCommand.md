@@ -12,7 +12,7 @@ This command gets a bounding box of a desktop application UI element specified b
 
 | Argument       | Type                                                         | Required | Default Value                                                | Description                                                  |
 | -------------- | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| `wpath`        | [wpath](../G1ANT.Addon.UI/Structures/WPathStructure.md) | yes      |                                                              | Desktop application UI element to be located as a bounding box |
+| `wpath`        | [wpath](../Structures/WPathStructure.md) | yes      |                                                              | Desktop application UI element to be located as a bounding box |
 | `result`       | [variable](../../G1ANT.Language/Structures/VariableStructure.md) | no       | `♥result`                                                    | Name of a variable where the command's result will be stored in [rectangle](../../G1ANT.Language/G1ANT.Language/Structures/RectangleStructure.md) structure |
 | `if`           | [bool](../../G1ANT.Language/Structures/BooleanStructure.md) | no       | true                                                         | Executes the command only if a specified condition is true   |
 | `timeout`      | [timespan](../../G1ANT.Language/Structures/TimeSpanStructure.md) | no       | [♥timeoutcommand](../../G1ANT.Addon.Core/Variables/TimeoutCommandVariable.md) | Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |

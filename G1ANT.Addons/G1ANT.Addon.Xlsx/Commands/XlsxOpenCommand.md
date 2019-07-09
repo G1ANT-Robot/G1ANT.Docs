@@ -27,7 +27,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-In the following script the document.xlsx is opened without the possibility to modify it (read-only mode). If the specified file doesn’t exist, it will be created by the command. The ID of this Excel instance is assigned to the `♥excelId1` variable. This ID can then be used with the [`xlsx.switch`](../G1ANT.Addon.Xlsx/Commands/XlsxSwitchCommand.md) command.
+In the following script the document.xlsx is opened without the possibility to modify it (read-only mode). If the specified file doesn’t exist, it will be created by the command. The ID of this Excel instance is assigned to the `♥excelId1` variable. This ID can then be used with the [`xlsx.switch`](XlsxSwitchCommand.md) command.
 
 ```G1ANT
 xlsx.open C:\Documents\document.xlsx accessmode read createifnotexist true result ♥excelId1

@@ -8,7 +8,7 @@
 
 ## Description
 
-Determines the timeout value (in ms) for the [is.accessible](../G1ANT.Addon.Net/Commands/IsAccessibleCommand.md) and [ping](../G1ANT.Addon.Net/Commands/PingCommand.md) commands; the default value is 1000 (1 second).
+Determines the timeout value (in ms) for the [is.accessible](../Commands/IsAccessibleCommand.md) and [ping](../Commands/PingCommand.md) commands; the default value is 1000 (1 second).
 
 ## Example
 

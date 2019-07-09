@@ -13,7 +13,7 @@ This command is used to return an Outlook folder specified with its internal Out
 | Argument       | Type                                                         | Required | Default Value                                                | Description                                                  |
 | -------------- | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | `path`         | [text](../../G1ANT.Language/Structures/TextStructure.md) | yes      |                                                              | Path to an Outlook folder                                    |
-| `result`       | [variable](../../G1ANT.Language/Structures/VariableStructure.md) | no       | `♥result`                                                    | Name of a variable where the command's result will be stored. The variable will be of [outlookfolder](../G1ANT.Addon.MSOffice/Structures/OutlookFolderStructure.md) structure |
+| `result`       | [variable](../../G1ANT.Language/Structures/VariableStructure.md) | no       | `♥result`                                                    | Name of a variable where the command's result will be stored. The variable will be of [outlookfolder](../Structures/OutlookFolderStructure.md) structure |
 | `if`           | [bool](../../G1ANT.Language/Structures/BooleanStructure.md) | no       | true                                                         | Executes the command only if a specified condition is true   |
 | `timeout`      | [timespan](../../G1ANT.Language/Structures/TimeSpanStructure.md) | no       | [♥timeoutcommand](../../G1ANT.Addon.Core/Variables/TimeoutCommandVariable.md) | Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
 | `errorcall`    | [procedure](../../G1ANT.Language/Structures/ProcedureStructure.md) | no       |                                                              | Name of a procedure to call when the command throws an exception or when a given `timeout` expires |
@@ -38,4 +38,4 @@ foreach ♥email in ♥unreademails
 end
 ```
 
-Note that another Outlook structure is used here as well: [outlookmail](../G1ANT.Addon.MSOffice/Structures/OutlookMailStructure.md) (for the `♥email` variable).
+Note that another Outlook structure is used here as well: [outlookmail](../Structures/OutlookMailStructure.md) (for the `♥email` variable).
