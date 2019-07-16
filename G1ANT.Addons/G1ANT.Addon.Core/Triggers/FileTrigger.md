@@ -1,42 +1,45 @@
 # File Trigger
 
-File Trigger monitors files in the specified folder and provides information whether they were changed, deleted, renamed or there are some new created files.
+File Trigger monitors files in a specified folder and provides information whether they were changed, deleted, renamed or there are some new created files.
 
 ## Initial Arguments
 
 | Trigger Argument | Required | Default value | Description |
 | -------- | ---- | -------- | ------------- |
-| `Directory` | yes |  | Path of the folder to monitor |
-| `Filter` | no |  `*.*` | Determines what files are monitored in a directory, all files are watched by default (`*.*`) |
+| `Directory` | yes |  | Path of the folder to be monitored |
+| `Filter` | no |  `*.*` | Determines what files are monitored in a directory; all files are watched by default (`*.*`) |
 | `AddExistingFilesAtStart` | no | false | Determines whether all initially existing files will be triggered or not |
 
 ## Task Arguments
 
-Arguments generated while executing the script for each of the file in the monitored folder.
+Arguments passed to the script for each file in the monitored folder:
 
 | Trigger Argument | Description |
 | -------- | ---- |
 | `FilePath` | Path to a file in the monitored folder |
-| `FileName` | Name of the file (with extension) |
-| `FileNameWithoutExtension` | Name of the file (without extension) |
+| `FileName` | Name of a file (with extension) |
+| `FileNameWithoutExtension` | Name of a file (without extension) |
 | `ChangeType` | Information about the type of modification that was applied to a file (created, changed, deleted or renamed) |
 | `OldFilePath` | Path to the file that has been changed |
 
 ## Example of Defining a File Trigger in Settings
 
+![FileTrigger Example](/G1ANT.Addon.Core/Triggers/https://manual.g1ant.com/link/G1ANT.Manual/-assets/filetriggerexample.png)
+
+## Example of Defining a File Trigger in the Config File
+
 ```G1ANT
-<Trigger Class="FileTrigger" Name="test" TaskName="C:\Users\a\Documents\G1ANT.Robot\test.robot">
+<Trigger Class="FileTrigger" Name="test" TaskName="C:\Users\Robot\Documents\G1ANT.Robot\test.robot">
 	<Arguments>
-		<Argument Key="Directory">C:\Users\a\Documents\G1ANT.Robot</Argument>
+		<Argument Key="Directory">C:\Users\Robot\Documents\G1ANT.Robot</Argument>
 	</Arguments>
 </Trigger> 
 ```
 
 ## Example
 
-```G1ANT
-dialog ♥task⟦filepath⟧
-dialog ♥task⟦changetype⟧
-```
+The script executed by the File Trigger can make use of task arguments mentioned earlier. The following line included in the script will display the full path to a file, which triggered the script execution, along with the information on the type of change to this file:
 
-![img](../../.gitbook/assets/g1ant-robot-withaddons-3-125-18060-1600-2018-03-14-17-01-31_v1.png)![img](../../.gitbook/assets/g1ant-robot-withaddons-3-125-18060-1600-2018-03-14-17-08-59.png)
+```G1ANT
+dialog ‴Triggering file ♥task⟦filepath⟧ was ♥task⟦changetype⟧‴
+```

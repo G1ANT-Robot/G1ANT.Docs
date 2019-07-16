@@ -8,7 +8,7 @@ keyboard.capslock state ⟦text⟧
 
 ## Description
 
-This command switches the **CapsLock** key on or off. You can also use the [`♥capslock`](../../Variables/CapsLockVariable.md) special variable to achieve the same results.
+This command switches the **CapsLock** key on or off. You can also use the [`♥capslock`](../Variables/CapsLockVariable.md) special variable to achieve the same results.
 
 > **Note:** The text input executed with the [`keyboard`](KeyboardCommand.md) command will only be affected with this setting if keystrokes are used (individual keys specified within the `⋘⋙` [key code special characters](../../../appendices/special-characters/key-code.md)), not text strings (text within the `‴‴` [text special characters](../../../appendices/special-characters/text.md)) — see the example below.
 

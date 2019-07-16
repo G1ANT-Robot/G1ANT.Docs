@@ -1,37 +1,48 @@
 # Triggering
 
-Section triggering describes all the triggers which can be generated in specific circumstances (depending on the trigger) and can call user defined process.
-Each entry of this section should be defined as below.
+Triggers can execute user defined processes based on events. There are three triggers that can be used by G1ANT.Robot: [File Trigger](../../../G1ANT.Addon.Core/G1ANT.Addon.Core/Triggers/FileTrigger.md), [Mail Trigger](../../../G1ANT.Addon.Core/G1ANT.Addon.Core/Triggers/MailTrigger.md) and [Schedule Trigger](../../../G1ANT.Addon.Core/G1ANT.Addon.Core/Triggers/ScheduleTrigger.md). Their names are self-explanatory, as they are activated on a specified file, mail or schedule event.
 
-**Initial Arguments**
+## Initial Arguments
 
-Arguments needed for a trigger to be called before running the script. In order to set them, you need to open `Tools\Settings` and paste some xml code between `<Triggers>` … `</Triggers>`.
-Note that some possible arguments are not required to be set because they already have a default value.
+These are the arguments needed for a trigger to be called before running the script. In order to set them, you need to follow these steps:
 
-**Example**
+1. Select `Settings` from `Tools` menu.
+2. In the resulting Settings window, navigate to the `Triggers` entry. Right-click it and select `Add` from the context menu.
+3. Expand the `Triggers` entry by clicking its arrow on the left. You should see a new entry with the default `trigger1` name. Expand it.
+4. Click the field next to the `TaskName` entry and enter the full path to the robot script file you have just saved. This is the script to be run by the trigger.
+5. Click the field next to the `Class` entry and type the desired trigger name: `FileTrigger`, `MailTrigger` or `ScheduleTrigger`.
+6. Right-click the `Arguments` entry and select `Add` from the context menu.
+7. Expand the resulting `argument1` entry, click the field next to the `Key` entry and type the name of a key.
+8. Click the field next to the `Value` entry and type the key value.
+9. Repeat steps 6-8 to add more arguments.
+
+Another way of defining a trigger is to paste some XML code between `<Triggers>` … `</Triggers>` tags in G1ANT.Robot.config file (its location is provided in the *File name:* drop down list at the top of Settings window). Here’s a sample code:
 
 ```G1ANT
-<Trigger Class="FileTrigger" Name="test" TaskName="C:\Users\a\Documents\G1ANT.Robot\test.robot">
+<Trigger Class="FileTrigger" Name="test" TaskName="C:\Users\Robot\Documents\G1ANT.Robot\test.robot">
 	<Arguments>
-		<Argument Key="Directory">C:\Users\a\Documents\G1ANT.Robot</Argument>
+		<Argument Key="Directory">C:\Users\Robot\Documents\G1ANT.Robot</Argument>
 	</Arguments>
 </Trigger> 
 ```
 
-**Arguments to define a trigger:**
-`Class` - describes what type of trigger it is (possible: FileTrigger, ScheduleTrigger, MailTrigger)
-`Name` - unique name declared to distinguish triggers from the same Class
-`TaskName` - either a name of a robot script without extension that we want to launch, name of it with extension or just a path to this robot script
+Note that some possible arguments are not required to be set because they already have a default value.
 
-**Argument to define trigger initial arguments:**
-`Key` - name of a trigger initial argument, value of that trigger argument should be put between `<Argument>` ... `</Argument>`.
+### Arguments to Define a Trigger
 
-**Task Arguments**
+- `Class` describes the type of a trigger (FileTrigger, ScheduleTrigger or MailTrigger)
+- `Name` is a unique name declared to distinguish triggers of the same Class
+- `TaskName` is either a name of a robot script (with or without extension) that should be launched by a trigger, or just a path to this script
 
-Arguments generated while executing the script. In order to get them, use special variable `♥task` and inside these special rectangle characters `⟦⟧` insert the name of an argument.
-e.g. `♥task⟦filepath⟧`
+### Argument to Define the Trigger Initial Arguments
 
-For the list of possible task or initial arguments, please visit manual page regarding a specific trigger.
+`Key` is a name of a trigger initial argument; its value should be declared in a `Value` field or put between `<Argument>` ... `</Argument>` tags in the G1ANT.Robot’s config file.
 
-Note that triggers are not active at the start of G1ANT.Robot. Whenever we want to use them, the triggersactive option must be switched on before launching the script. You can do this by choosing `Triggers/Active` from the Menu in Robot.
+## Task Arguments
+
+These are the arguments that the trigger will pass to the script on its execution. In order to use them in the executed script, insert the `♥task` special variable with the name of an argument embraced with the `⟦⟧` double brackets special character (available with **Ctrl+[** keyboard shortcut), e.g.: `♥task⟦filepath⟧`.
+
+For the list of possible task or initial arguments, refer to a description of a specific trigger.
+
+> **Note:** Triggers are not active when G1ANT.Robot starts. Select `Activate` from the `Triggers` menu to enable triggering.
 

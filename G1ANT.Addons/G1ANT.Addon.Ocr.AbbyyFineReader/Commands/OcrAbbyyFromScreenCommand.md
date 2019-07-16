@@ -14,7 +14,7 @@ This command captures part of the screen and recognizes text in it.
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
-|`area`| [rectangle](../../G1ANT.Language/G1ANT.Language/Structures/RectangleStructure.md) | yes |  | Screen area to be captured, specified in a rectangle format (`x0⫽y0⫽x1⫽y1`, where `x0⫽y0` are coordinates of a top left corner and `x1⫽y1` coordinates of a bottom right corner of the area) |
+|`area`| [rectangle](../../../G1ANT.Robot/G1ANT.Language/G1ANT.Language/Structures/RectangleStructure.md) | yes |  | Screen area to be captured, specified in a rectangle format (`x0⫽y0⫽x1⫽y1`, where `x0⫽y0` are coordinates of a top left corner and `x1⫽y1` coordinates of a bottom right corner of the area) |
 |`relative`| [bool](../../G1ANT.Language/Structures/BooleanStructure.md) | no | false | When set to `true`, area coordinates are relative to the active window |
 |`language`| [text](../../G1ANT.Language/Structures/TextStructure.md) | no | English | Language which should be considered during text recognition |
 | `result`       | [variable](../../G1ANT.Language/Structures/VariableStructure.md) | no       | `♥result`                                                   | Name of a variable where the command's result (recognized text) will be stored |
