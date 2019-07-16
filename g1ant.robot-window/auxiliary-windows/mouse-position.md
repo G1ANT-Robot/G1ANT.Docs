@@ -4,7 +4,7 @@ This tool inserts mouse position in absolute or relative (to the active window) 
 
 When you open this tool, you are prompted to choose absolute or relative measurement:
 
-![](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/mouse-position.jpg)
+![](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/mouse-position.jpg)
 
 Right after clicking your answer, the screen grays out and you can point your mouse cursor to the desired position. When you click the left mouse button, the current mouse position will be inserted into your code as a value of [`⟦point⟧`](../../G1ANT.Addons/G1ANT.Language/Structures/PointStructure.md) structure.
 

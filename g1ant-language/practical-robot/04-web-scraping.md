@@ -30,7 +30,7 @@ Alright, you found the node, where Yahoo! puts the quote to be displayed on thei
 
 You could translate it into: find a branch with `"quote-header-info"` ID, then enter the branch of the third `div` element in this branch, go down its first `div` element, then again down the first `div` element inside and stop at the first `span` element. It’s easier to understand this by looking at the element tree in the browser’s inspection pane:
 
-![](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/xpath.png)
+![](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/xpath.png)
 
 Time for some practicing: go to [OANDA](https://www.oanda.com/currency/live-exchange-rates/) and [Bloomberg](https://www.bloomberg.com/quote/EURUSD:CUR) and do the same hunting for XPaths to EUR/USD quotes. Do you notice that OANDA has a bit different way of presenting the data? Their quotes combine three elements with different formatting for a better readability. Therefore, you will have to use two XPaths to get the full quote (the third element is responsible for the fifth decimal number, which is unnecessary in case of this exercise).
 
@@ -198,7 +198,7 @@ Sheet happens: the Robot encounters a problem right after it opens your Google S
 
 Data structure (type) is the culprit. The `selenium.gettext` command literally gets text and if you take a closer look at the Variables panel, the resulting variables `♥oanda`, `♥yahoo` and `♥bloomberg` are of `text` structure.
 
-![](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/webscrap-variables.png)
+![](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/webscrap-variables.png)
 
 It doesn’t impose any problems as long as you don’t want to use this variables in places where numbers are expected, not text. Unfortunately for you, the `googlesheet.setvalue` command uses number values by default. You can bypass this requirement with the `numeric` argument set to `false` (eg. `googlesheet.setvalue B2 value ♥oanda numeric false`), but if you would want to use the data in your sheet for further processing, it’s really a bad idea — you can’t perform any mathematical operations on text.
 
@@ -226,7 +226,7 @@ In case of this exercise, you need your variables to be of `float` structure, be
 
 Insert these lines at the end of the `scrapQuotes` procedure and run the script again. This time it should execute flawlessly. Remember that the `googlesheet.` commands work silently in the background, directly communicating with the Google Sheets documents without launching your default browser. Open your Google Sheets document to see the results.
 
-If everything is OK, save your script (use a common **Ctrl+S** keyboard shortcut or click the ![](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/save.jpg) icon) under whatever name you want and wherever you want. Be sure to remember where it was saved, though. You will need this file soon.
+If everything is OK, save your script (use a common **Ctrl+S** keyboard shortcut or click the ![](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/save.jpg) icon) under whatever name you want and wherever you want. Be sure to remember where it was saved, though. You will need this file soon.
 
 ## Robot Scheduling
 

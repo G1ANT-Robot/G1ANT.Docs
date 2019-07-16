@@ -1,6 +1,6 @@
 # Excel, Procedures and Loops
 
-Let’s start with automating Excel spreadsheets. Imagine you want to get data from one file and enter them into another, newly created file. For the purposes of this tutorial, create a folder called Data in your Documents (Windows 10) or My Documents (earlier Windows versions) folder and put this excel data file [data.xlsx](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/data.xlsx) into it.
+Let’s start with automating Excel spreadsheets. Imagine you want to get data from one file and enter them into another, newly created file. For the purposes of this tutorial, create a folder called Data in your Documents (Windows 10) or My Documents (earlier Windows versions) folder and put this excel data file [data.xlsx](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/data.xlsx) into it.
 
 Since using the whole path to a file every time you want to refer to it is a bit tedious, robotizing this repetitive task would be a good starting point. All you have to do is to declare a new variable — named  `♥datafile1`, for example — with its value equal to the filepath.
 

@@ -28,4 +28,4 @@ The first commented out line of script is a simple text: `-The line below will n
 
 The other commented out line is a command (`-keyboard text2⋘enter⋙`) that would perform an action if it wasn’t commented out.
 
-![](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/comments.jpg)
+![](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/comments.jpg)

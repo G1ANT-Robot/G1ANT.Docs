@@ -19,7 +19,7 @@ An array separator `❚` is available from `Insert/Array Separator` menu or with
 dialog ♥array
 ```
 
-![img](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/2018-01-04-array-separator_v1.jpg)
+![img](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/2018-01-04-array-separator_v1.jpg)
 
 In the example above the `♥list` variable contains 3 elements: `element1`, `element 2` and `ele ment 3`. They are all displayed with the `dialog` command.
 
@@ -30,7 +30,7 @@ In the example above the `♥list` variable contains 3 elements: `element1`, `el
 dialog ♥list⟦1⟧
 ```
 
-![img](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/2018-01-04-array-separator-2_v1.jpg)
+![img](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/2018-01-04-array-separator-2_v1.jpg)
 
 Here, the `dialog` command displays the first element of the `♥list` variable — as specified by `⟦1⟧` index.
 
@@ -41,6 +41,6 @@ Here, the `dialog` command displays the first element of the `♥list` variable 
 dialog ♥list⟦3⟧
 ```
 
-![](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/array3.png)
+![](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/array3.png)
 
 In the first line the `♥list` variable is declared as a list of date type elements. The third element called by the `dialog` command will be displayed in a proper date format.

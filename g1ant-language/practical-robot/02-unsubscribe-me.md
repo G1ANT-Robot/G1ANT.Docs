@@ -4,7 +4,7 @@ The previous exercise with G1ANT.Language was based on Excel and the Robot comma
 
 Imagine such a scenario: you run a company, which sends email newsletters to its subscribers. The subscribers list is stored in an ordinary CSV (comma separated values) file — it’s a plain text file with basic information: first name, last name, company name and email address of a subscriber. When your subscriber no longer wants to receive emails from you, he or she sends an email with “unsubscribe” in the subject field and you manually delete this address from your mailing list.
 
-![Sample mailing list CSV file in Notepad](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/mailing-list.jpg)
+![Sample mailing list CSV file in Notepad](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/mailing-list.jpg)
 
 And here the G1ANT.Robot steps in and takes this job from you!
 
