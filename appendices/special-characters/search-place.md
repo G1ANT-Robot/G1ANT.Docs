@@ -22,7 +22,7 @@ text.find ♥source search Name:✱Surname: result ♥name
 dialog ♥name
 ```
 
-![img](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/search1_v1.png)
+![img](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/develop/-assets/search1_v1.png)
 
 ### Example 2
 
@@ -34,5 +34,5 @@ text.find ♥source search Name:✱Surname: result ♥name
 dialog ♥name
 ```
 
-![](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/search2.png)
+![](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/develop/-assets/search2.png)
 

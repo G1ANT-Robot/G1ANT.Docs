@@ -4,7 +4,7 @@ The command center of G1ANT.Robot is available from `Tools/Settings` menu. It of
 
 The Settings window is a front-end to G1ANT.Robot.config XML file. Its path is displayed in the `File name` box.
 
-![](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/-assets/settings.jpg)
+![](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/develop/-assets/settings.jpg)
 
 | Item            | Description                                                  |
 | --------------- | ------------------------------------------------------------ |
