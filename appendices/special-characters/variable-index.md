@@ -23,7 +23,7 @@ You can insert the variable index characters from `Insert/Variable Index` menu o
 dialog ♥str⟦4⟧
 ```
 
-![](/-assets/varindex1.png)
+![](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/varindex1.png)
 
 In this example the fourth character of the text variable `♥str` is displayed.
 
@@ -34,6 +34,6 @@ In this example the fourth character of the text variable `♥str` is displayed.
 dialog ♥str⟦4:13⟧
 ```
 
-![](/-assets/varindex2.png)
+![](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/varindex2.png)
 
 In this example, characters starting from the fourth up to the thirteenth position of the text variable `♥str` are displayed.

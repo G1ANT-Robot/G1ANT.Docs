@@ -2,7 +2,7 @@
 
 The main G1ANT.Robot program window is composed of four elements:
 
-![](/-assets/robot-overview.png)
+![](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/robot-overview.png)
 
 1. The **workspace** a.k.a. the script editor is the place where you type your code. The workspace is tabbed: you can have many robot scripts opened at the same time, each in its own tab.
 

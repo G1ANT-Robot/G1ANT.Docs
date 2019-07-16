@@ -30,7 +30,7 @@ Arguments that are passed to the script on its execution for each incoming email
 
 ## Example of Defining a Mail Trigger in Settings
 
-![MailTrigger in Settings](/G1ANT.Addon.Core/Triggers/https://manual.g1ant.com/link/G1ANT.Manual/-assets/mailtriggerexample.png)
+![MailTrigger in Settings](https://manual.g1ant.com/link/G1ANT.Manual/-assets/mailtriggerexample.png)
 
 ## Example of Defining a Mail Trigger in the Config File
 

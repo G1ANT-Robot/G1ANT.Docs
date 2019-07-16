@@ -10,10 +10,10 @@ The OCR Tesseract Addon is not a part of a G1ANT.Studio platform download and yo
 
 4. Click *Unblock* button in the bottom right part of the resulting window:
 
-   ![Unblocking the file](/-assets/unblock.png)
+   ![Unblocking the file](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/unblock.png)
 
 5. Run G1ANT.Studio.
 
 The OCR Tesseract Addon should now be available in the Addons panel. Click the check box next to `ocrtesseract` to enable the addon:
 
-![Enabling Tesseract](/-assets/tesseract.png)
+![Enabling Tesseract](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/tesseract.png)

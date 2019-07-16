@@ -16,7 +16,7 @@ Schedule Trigger executes tasks at a specified time.
 
 ## Example of Defining a Schedule Trigger in Settings
 
-![ScheduleTrigger in Settings](/G1ANT.Addon.Core/Triggers/https://manual.g1ant.com/link/G1ANT.Manual/-assets/scheduletriggerexample.png)
+![ScheduleTrigger in Settings](https://manual.g1ant.com/link/G1ANT.Manual/-assets/scheduletriggerexample.png)
 
 ## Example of Defining a Schedule Trigger in the Config File
 

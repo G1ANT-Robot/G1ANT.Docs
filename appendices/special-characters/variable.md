@@ -24,5 +24,5 @@ program notepad
 keyboard ♥text
 ```
 
-![img](/-assets/variable.png)
+![img](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/variable.png)
 
