@@ -19,7 +19,7 @@ In this example, you will use a C# snippet to display current date and hour. In 
 dialog ♥macro
 ```
 
-![img](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/macro.png)
+![img](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/macro.png)
 
 ### Example 2
 

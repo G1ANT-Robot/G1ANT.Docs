@@ -21,7 +21,7 @@ program notepad
 keyboard ‴here you can place any text‴
 ```
 
-![](https://github.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/text.png)
+![](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/raw/develop/G1ANT.Manual/-assets/text.png)
 
 In the first line the text contained within triple quotes is a name of the program to be run. The text in the next line should be entered by the `keyboard` command in the launched program.
 
