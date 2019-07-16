@@ -2,13 +2,10 @@
 
 | Name | Description | Author |
 | ---- | ----------- | ----- |
-| [AmazonS3](../G1ANT.Addons/G1ANT.Addon.AmazonS3/Addon.md) | Addon for Amazon Web Services Simple Storage Service operations | Marian Witkowski |
 | [Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) | Core commands, triggers, structures | G1ANT LTD |
-| [Ftp](../G1ANT.Addons/G1ANT.Addon.Ftp/Addon.md) | Addon for FTP operations | Marian Witkowski |
 | [GoogleDocs](../G1ANT.Addons/G1ANT.Addon.GoogleDocs/Addon.md) | GoogleDocs Commands | G1ANT LTD |
 | [IExplorer](../G1ANT.Addons/G1ANT.Addon.IExplorer/Addon.md) | IExplorer Commands | G1ANT Robot Ltd |
 | [Images](../G1ANT.Addons/G1ANT.Addon.Images/Addon.md) | images Commands | G1ANT LTD |
-| [MongoDB](../G1ANT.Addons/G1ANT.Addon.MongoDB/Addon.md) | Addon for MongoDB operations | Marian Witkowski |
 | [MSOffice](../G1ANT.Addons/G1ANT.Addon.MSOffice/Addon.md) | MSOffice Commands | G1ANT Robot Ltd |
 | [Net](../G1ANT.Addons/G1ANT.Addon.Net/Addon.md) | Net Commands | G1ANT Robot Ltd |
 | [Ocrabbyy](../G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Addon.md) | AbbyyFineReader Commands | G1ANT Robot Ltd |

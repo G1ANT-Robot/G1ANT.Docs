@@ -2,14 +2,6 @@
 
 | Name | Description | Addon |
 | ---- | ----------- | ----- |
-| [amazons3.createbucket](../G1ANT.Addons/G1ANT.Addon.AmazonS3/Commands/CreateBucketCommand.md) | Create AWS S3 bucket | [G1ANT.Addon.AmazonS3](../G1ANT.Addons/G1ANT.Addon.AmazonS3/Commands/CreateBucketCommand.md) |
-| [amazons3.deleteobject](../G1ANT.Addons/G1ANT.Addon.AmazonS3/Commands/DeleteObjectCommand.md) | Delete object from AWS S3 bucket | [G1ANT.Addon.AmazonS3](../G1ANT.Addons/G1ANT.Addon.AmazonS3/Commands/DeleteObjectCommand.md) |
-| [amazons3.listobjects](../G1ANT.Addons/G1ANT.Addon.AmazonS3/Commands/ListObjectsCommand.md) | List bucket content | [G1ANT.Addon.AmazonS3](../G1ANT.Addons/G1ANT.Addon.AmazonS3/Commands/ListObjectsCommand.md) |
-| [amazons3.listregions](../G1ANT.Addons/G1ANT.Addon.AmazonS3/Commands/ListRegionsCommand.md) | List endpoints regions for AWS | [G1ANT.Addon.AmazonS3](../G1ANT.Addons/G1ANT.Addon.AmazonS3/Commands/ListRegionsCommand.md) |
-| [amazons3.init](../G1ANT.Addons/G1ANT.Addon.AmazonS3/Commands/OpenCommand.md) | Init S3 client connection | [G1ANT.Addon.AmazonS3](../G1ANT.Addons/G1ANT.Addon.AmazonS3/Commands/OpenCommand.md) |
-| [amazons3.readobject](../G1ANT.Addons/G1ANT.Addon.AmazonS3/Commands/ReadObjectCommand.md) | Read object from AWS S3 bucket and save to local file | [G1ANT.Addon.AmazonS3](../G1ANT.Addons/G1ANT.Addon.AmazonS3/Commands/ReadObjectCommand.md) |
-| [amazons3.writeobjectfile](../G1ANT.Addons/G1ANT.Addon.AmazonS3/Commands/WriteObjectFromFileCommand.md) | Load local file and save into object on AWS S3 bucket | [G1ANT.Addon.AmazonS3](../G1ANT.Addons/G1ANT.Addon.AmazonS3/Commands/WriteObjectFromFileCommand.md) |
-| [amazons3.writeobjecttext](../G1ANT.Addons/G1ANT.Addon.AmazonS3/Commands/WriteObjectFromTextCommand.md) | Save text into object on AWS S3 bucket | [G1ANT.Addon.AmazonS3](../G1ANT.Addons/G1ANT.Addon.AmazonS3/Commands/WriteObjectFromTextCommand.md) |
 | [break](../G1ANT.Addons/G1ANT.Addon.Core/Commands/BreakCommand.md) | The `break` command immediately exits current block and continues process execution | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
 | [call](../G1ANT.Addons/G1ANT.Addon.Core/Commands/CallCommand.md) | When the `call` command is used, the robot goes to a specified procedure (block of commands) and executes it until its end is reached | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
 | [checkversion](../G1ANT.Addons/G1ANT.Addon.Core/Commands/CheckVersionCommand.md) | The `checkversion` command allows to check product, file and assembly versions of the file | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
@@ -85,15 +77,6 @@
 | [waitfor.window](../G1ANT.Addons/G1ANT.Addon.Core/Commands/WaitForWindowCommand.md) | This command waits for the specified window to become focused | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
 | [while](../G1ANT.Addons/G1ANT.Addon.Core/Commands/WhileCommand.md) | This command creates a loop, which repeats the inner block a specified number of times | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
 | [window](../G1ANT.Addons/G1ANT.Addon.Core/Commands/WindowCommand.md) | This command brings the specified window to the front and activates it | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
-| [ftp.createdir](../G1ANT.Addons/G1ANT.Addon.Ftp/Commands/CreateDirectoryCommand.md) | Create directory on FTP server | [G1ANT.Addon.Ftp](../G1ANT.Addons/G1ANT.Addon.Ftp/Commands/CreateDirectoryCommand.md) |
-| [ftp.delete](../G1ANT.Addons/G1ANT.Addon.Ftp/Commands/DeleteFileCommand.md) | Delete file from FTP server | [G1ANT.Addon.Ftp](../G1ANT.Addons/G1ANT.Addon.Ftp/Commands/DeleteFileCommand.md) |
-| [ftp.get](../G1ANT.Addons/G1ANT.Addon.Ftp/Commands/GetFileCommand.md) | Get file from FTP server | [G1ANT.Addon.Ftp](../G1ANT.Addons/G1ANT.Addon.Ftp/Commands/GetFileCommand.md) |
-| [ftp.filesize](../G1ANT.Addons/G1ANT.Addon.Ftp/Commands/GetFileSizeCommand.md) | Get file size on FTP server | [G1ANT.Addon.Ftp](../G1ANT.Addons/G1ANT.Addon.Ftp/Commands/GetFileSizeCommand.md) |
-| [ftp.filetimestamp](../G1ANT.Addons/G1ANT.Addon.Ftp/Commands/GetFileTimestampCommand.md) | Get file last modification timestamp | [G1ANT.Addon.Ftp](../G1ANT.Addons/G1ANT.Addon.Ftp/Commands/GetFileTimestampCommand.md) |
-| [ftp.list](../G1ANT.Addons/G1ANT.Addon.Ftp/Commands/ListCommand.md) | List FTP directory | [G1ANT.Addon.Ftp](../G1ANT.Addons/G1ANT.Addon.Ftp/Commands/ListCommand.md) |
-| [ftp.init](../G1ANT.Addons/G1ANT.Addon.Ftp/Commands/OpenCommand.md) | Set parameters for FTP connection | [G1ANT.Addon.Ftp](../G1ANT.Addons/G1ANT.Addon.Ftp/Commands/OpenCommand.md) |
-| [ftp.put](../G1ANT.Addons/G1ANT.Addon.Ftp/Commands/PutFileCommand.md) | Put file to FTP server | [G1ANT.Addon.Ftp](../G1ANT.Addons/G1ANT.Addon.Ftp/Commands/PutFileCommand.md) |
-| [ftp.rename](../G1ANT.Addons/G1ANT.Addon.Ftp/Commands/RenameFileCommand.md) | Rename file on FTP server | [G1ANT.Addon.Ftp](../G1ANT.Addons/G1ANT.Addon.Ftp/Commands/RenameFileCommand.md) |
 | [googlesheet.close](../G1ANT.Addons/G1ANT.Addon.GoogleDocs/Commands/GoogleSheetCloseCommand.md) | This command closes a Google Sheets instance | [G1ANT.Addon.GoogleDocs](../G1ANT.Addons/G1ANT.Addon.GoogleDocs/Commands/GoogleSheetCloseCommand.md) |
 | [googlesheet.download](../G1ANT.Addons/G1ANT.Addon.GoogleDocs/Commands/GoogleSheetDownloadCommand.md) | This command downloads the whole spreadsheet | [G1ANT.Addon.GoogleDocs](../G1ANT.Addons/G1ANT.Addon.GoogleDocs/Commands/GoogleSheetDownloadCommand.md) |
 | [googlesheet.findall](../G1ANT.Addons/G1ANT.Addon.GoogleDocs/Commands/GoogleSheetFindAllCommand.md) | This command finds all cells with a specified value | [G1ANT.Addon.GoogleDocs](../G1ANT.Addons/G1ANT.Addon.GoogleDocs/Commands/GoogleSheetFindAllCommand.md) |
@@ -126,8 +109,6 @@
 | [image.findrectangles](../G1ANT.Addons/G1ANT.Addon.Images/Commands/ImageFindRectanglesCommand.md) | This command finds objects separated by a black background in a specified image and returns a list of their coordinates, width and height | [G1ANT.Addon.Images](../G1ANT.Addons/G1ANT.Addon.Images/Commands/ImageFindRectanglesCommand.md) |
 | [image.sharpen](../G1ANT.Addons/G1ANT.Addon.Images/Commands/ImageSharpenCommand.md) | This command sharpens a specified image | [G1ANT.Addon.Images](../G1ANT.Addons/G1ANT.Addon.Images/Commands/ImageSharpenCommand.md) |
 | [waitfor.image](../G1ANT.Addons/G1ANT.Addon.Images/Commands/WaitForImageCommand.md) | This command waits for a specified image to appear on the screen and returns the coordinates of the matching image | [G1ANT.Addon.Images](../G1ANT.Addons/G1ANT.Addon.Images/Commands/WaitForImageCommand.md) |
-| [mongodb.find](../G1ANT.Addons/G1ANT.Addon.MongoDB/Commands/FindCommand.md) | Find documents in MongoDB collection | [G1ANT.Addon.MongoDB](../G1ANT.Addons/G1ANT.Addon.MongoDB/Commands/FindCommand.md) |
-| [mongodb.init](../G1ANT.Addons/G1ANT.Addon.MongoDB/Commands/OpenCommand.md) | Set parameters for MongoDB connection | [G1ANT.Addon.MongoDB](../G1ANT.Addons/G1ANT.Addon.MongoDB/Commands/OpenCommand.md) |
 | [excel.activatesheet](../G1ANT.Addons/G1ANT.Addon.MSOffice/Commands/ExcelActivateSheetCommand.md) | This command activates a specified sheet in the currently active Excel instance | [G1ANT.Addon.MSOffice](../G1ANT.Addons/G1ANT.Addon.MSOffice/Commands/ExcelActivateSheetCommand.md) |
 | [excel.addsheet](../G1ANT.Addons/G1ANT.Addon.MSOffice/Commands/ExcelAddSheetCommand.md) | This command adds a new sheet to the currently active Excel instance | [G1ANT.Addon.MSOffice](../G1ANT.Addons/G1ANT.Addon.MSOffice/Commands/ExcelAddSheetCommand.md) |
 | [excel.close](../G1ANT.Addons/G1ANT.Addon.MSOffice/Commands/ExcelCloseCommand.md) | This command closes the currently active Excel instance | [G1ANT.Addon.MSOffice](../G1ANT.Addons/G1ANT.Addon.MSOffice/Commands/ExcelCloseCommand.md) |

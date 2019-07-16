@@ -70,8 +70,6 @@
     * [Shortcuts](g1ant.robot-window/auxiliary-windows/shortcuts.md)
   * [System Tray Menu](g1ant.robot-window/system-tray.md)
 * G1ANT.Addons
-  * G1ANT.Addon.Amazons3
-    * [Index Of All Addon Elements](G1ANT.Addons/G1ANT.Addon.AmazonS3/Addon.md)
   * G1ANT.Addon.Core
     * [Index Of All Addon Elements](G1ANT.Addons/G1ANT.Addon.Core/Addon.md)
     * Commands
@@ -179,8 +177,6 @@
       * [timeoutwaitforcolor](G1ANT.Addons/G1ANT.Addon.Core/Variables/TimeoutWaitForColorVariable.md)
       * [timeoutwindow](G1ANT.Addons/G1ANT.Addon.Core/Variables/TimeoutWindowVariable.md)
       * [time](G1ANT.Addons/G1ANT.Addon.Core/Variables/TimeVariable.md)
-  * G1ANT.Addon.Ftp
-    * [Index Of All Addon Elements](G1ANT.Addons/G1ANT.Addon.Ftp/Addon.md)
   * G1ANT.Addon.Googledocs
     * [Index Of All Addon Elements](G1ANT.Addons/G1ANT.Addon.GoogleDocs/Addon.md)
     * Commands
@@ -227,8 +223,6 @@
     * Variables
       * [timeoutimageexpected](G1ANT.Addons/G1ANT.Addon.Images/Variables/TimeoutImageExpectedVariable.md)
       * [timeoutimagefind](G1ANT.Addons/G1ANT.Addon.Images/Variables/TimeoutImageFindVariable.md)
-  * G1ANT.Addon.Mongodb
-    * [Index Of All Addon Elements](G1ANT.Addons/G1ANT.Addon.MongoDB/Addon.md)
   * G1ANT.Addon.Msoffice
     * [Index Of All Addon Elements](G1ANT.Addons/G1ANT.Addon.MSOffice/Addon.md)
     * Commands
