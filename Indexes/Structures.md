@@ -2,36 +2,36 @@
 
 | Name | Description | Addon |
 | ---- | ----------- | ----- |
-| [OutlookAttachment](../G1ANT.Addons/G1ANT.Addon.MSOffice/Structures/OutlookAttachmentStructure.md) |  | [G1ANT.Addon.MSOffice](../G1ANT.Addons/G1ANT.Addon.MSOffice/Structures/OutlookAttachmentStructure.md) |
-| [OutlookFolder](../G1ANT.Addons/G1ANT.Addon.MSOffice/Structures/OutlookFolderStructure.md) |  | [G1ANT.Addon.MSOffice](../G1ANT.Addons/G1ANT.Addon.MSOffice/Structures/OutlookFolderStructure.md) |
-| [OutlookMail](../G1ANT.Addons/G1ANT.Addon.MSOffice/Structures/OutlookMailStructure.md) |  | [G1ANT.Addon.MSOffice](../G1ANT.Addons/G1ANT.Addon.MSOffice/Structures/OutlookMailStructure.md) |
-| [abbyycell](../G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyCellStructure.md) |  | [G1ANT.Addon.Ocr.AbbyyFineReader](../G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyCellStructure.md) |
-| [abbyydocument](../G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyDocumentStructure.md) |  | [G1ANT.Addon.Ocr.AbbyyFineReader](../G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyDocumentStructure.md) |
-| [abbyypage](../G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyPageStructure.md) |  | [G1ANT.Addon.Ocr.AbbyyFineReader](../G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyPageStructure.md) |
-| [abbyyrow](../G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyRowStructure.md) |  | [G1ANT.Addon.Ocr.AbbyyFineReader](../G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyRowStructure.md) |
-| [wpath](../G1ANT.Addons/G1ANT.Addon.UI/Structures/WPathStructure.md) |  | [G1ANT.Addon.UI](../G1ANT.Addons/G1ANT.Addon.UI/Structures/WPathStructure.md) |
-| [attachment](../G1ANT.Addons/G1ANT.Language/Structures/AttachmentStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [bool](../G1ANT.Addons/G1ANT.Language/Structures/BooleanStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [date](../G1ANT.Addons/G1ANT.Language/Structures/DateStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [datetime](../G1ANT.Addons/G1ANT.Language/Structures/DateTimeStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [dictionary](../G1ANT.Addons/G1ANT.Language/Structures/DictionaryStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [error](../G1ANT.Addons/G1ANT.Language/Structures/ErrorStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [float](../G1ANT.Addons/G1ANT.Language/Structures/FloatStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [html](../G1ANT.Addons/G1ANT.Language/Structures/HtmlStructure.md) | For example: &lt;html&gt;&lt;/html&gt; | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [integer](../G1ANT.Addons/G1ANT.Language/Structures/IntegerStructure.md) | Represents signed integers with values that range from negative 2,147,483,648 through positive 2,147,483,647 | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [json](../G1ANT.Addons/G1ANT.Language/Structures/JsonStructure.md) | For example: {name: value} | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [label](../G1ANT.Addons/G1ANT.Language/Structures/LabelStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [list](../G1ANT.Addons/G1ANT.Language/Structures/ListStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [mail](../G1ANT.Addons/G1ANT.Language/Structures/MailStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [OutlookAttachment](../G1ANT.Addons/G1ANT.Addon.MSOffice/Structures/OutlookAttachmentStructure.md) | This structure stores information about the attachment to a mail message, which was retrieved with the `outlook.getfolder` command | [G1ANT.Addon.MSOffice](../G1ANT.Addons/G1ANT.Addon.MSOffice/Structures/OutlookAttachmentStructure.md) |
+| [OutlookFolder](../G1ANT.Addons/G1ANT.Addon.MSOffice/Structures/OutlookFolderStructure.md) | This structure stores information about the Outlook folder, which was retrieved with the `outlook.getfolder` command | [G1ANT.Addon.MSOffice](../G1ANT.Addons/G1ANT.Addon.MSOffice/Structures/OutlookFolderStructure.md) |
+| [OutlookMail](../G1ANT.Addons/G1ANT.Addon.MSOffice/Structures/OutlookMailStructure.md) | This structure stores information about a mail message, which was retrieved from the Outlook folder with the `outlook.getfolder` command | [G1ANT.Addon.MSOffice](../G1ANT.Addons/G1ANT.Addon.MSOffice/Structures/OutlookMailStructure.md) |
+| [abbyycell](../G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyCellStructure.md) | This structure stores information about the location and content of a table cell and has the following fields | [G1ANT.Addon.Ocr.AbbyyFineReader](../G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyCellStructure.md) |
+| [abbyydocument](../G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyDocumentStructure.md) | This structure stores documents processed with Abbyy FineReader OCR engine and has two fields | [G1ANT.Addon.Ocr.AbbyyFineReader](../G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyDocumentStructure.md) |
+| [abbyypage](../G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyPageStructure.md) | This structure stores information about a page in a document and has two fields | [G1ANT.Addon.Ocr.AbbyyFineReader](../G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyPageStructure.md) |
+| [abbyyrow](../G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyRowStructure.md) | This structure stores information about a row on a page and has five fields | [G1ANT.Addon.Ocr.AbbyyFineReader](../G1ANT.Addons/G1ANT.Addon.Ocr.AbbyyFineReader/Structures/AbbyyRowStructure.md) |
+| [wpath](../G1ANT.Addons/G1ANT.Addon.UI/Structures/WPathStructure.md) | This structure stores WPath information of UI elements and is used by the `ui.` family of commands, `waitfor.ui` included | [G1ANT.Addon.UI](../G1ANT.Addons/G1ANT.Addon.UI/Structures/WPathStructure.md) |
+| [attachment](../G1ANT.Addons/G1ANT.Language/Structures/AttachmentStructure.md) | The attachment structure stores current information about a mail attachment, which was downloaded with the `mail.` commands and stored in the `attachments` field of the mail structure | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [bool](../G1ANT.Addons/G1ANT.Language/Structures/BooleanStructure.md) | This structure is used for variables storing the Boolean values: `true` and `false` | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [date](../G1ANT.Addons/G1ANT.Language/Structures/DateStructure.md) | The date structure stores information about the date in the following fields | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [datetime](../G1ANT.Addons/G1ANT.Language/Structures/DateTimeStructure.md) | The datetime structure stores information about date and time in the following fields | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [dictionary](../G1ANT.Addons/G1ANT.Language/Structures/DictionaryStructure.md) | The dictionary structure stores a dictionary entry, which is a key-value pair separated with an array separator (❚) | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [error](../G1ANT.Addons/G1ANT.Language/Structures/ErrorStructure.md) | This structure contains information about an error that occurred while the script was executed | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [float](../G1ANT.Addons/G1ANT.Language/Structures/FloatStructure.md) | The float structure represents a number with a decimal point separator | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [html](../G1ANT.Addons/G1ANT.Language/Structures/HtmlStructure.md) | This structure stores values of imported HTML files | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [integer](../G1ANT.Addons/G1ANT.Language/Structures/IntegerStructure.md) | The integer structure stores a number that can be written without a fractional component and ranging from -2,147,483,648 to 2,147,483,647 | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [json](../G1ANT.Addons/G1ANT.Language/Structures/JsonStructure.md) | This structure stores the content of imported JSON files | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [label](../G1ANT.Addons/G1ANT.Language/Structures/LabelStructure.md) | This structure stores names of labels, which are called by the `jump` command | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [list](../G1ANT.Addons/G1ANT.Language/Structures/ListStructure.md) | This structure stores multiple countable ordered values within a single variable | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [mail](../G1ANT.Addons/G1ANT.Language/Structures/MailStructure.md) | This structure stores current information about a mail message, which was downloaded with the `mail.imap` command | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
 | [message](../G1ANT.Language.CI/G1ANT.Language/Structures/MessageStructure.md) |  | [G1ANT.Language](../G1ANT.Language.CI/G1ANT.Language/Structures/MessageStructure.md) |
-| [money](../G1ANT.Addons/G1ANT.Language/Structures/MoneyStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [path](../G1ANT.Addons/G1ANT.Language/Structures/PathStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [point](../G1ANT.Addons/G1ANT.Language/Structures/PointStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [procedure](../G1ANT.Addons/G1ANT.Language/Structures/ProcedureStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [rectangle](../G1ANT.Addons/G1ANT.Language/Structures/RectangleStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [text](../G1ANT.Addons/G1ANT.Language/Structures/TextStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [timespan](../G1ANT.Addons/G1ANT.Language/Structures/TimeSpanStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [time](../G1ANT.Addons/G1ANT.Language/Structures/TimeStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
-| [variable](../G1ANT.Addons/G1ANT.Language/Structures/VariableStructure.md) |  | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [money](../G1ANT.Addons/G1ANT.Language/Structures/MoneyStructure.md) | This structure represents a decimal number with up to 29 significant digits, which is important for financial calculations to avoid rounding errors | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [path](../G1ANT.Addons/G1ANT.Language/Structures/PathStructure.md) | This structure stores paths to files or directories and contains the following fields | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [point](../G1ANT.Addons/G1ANT.Language/Structures/PointStructure.md) | This structure stores pixel coordinates values | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [procedure](../G1ANT.Addons/G1ANT.Language/Structures/ProcedureStructure.md) | This structure stores names of procedures | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [rectangle](../G1ANT.Addons/G1ANT.Language/Structures/RectangleStructure.md) | This structure is designed to store coordinates of pixels in the two rectangle&apos;s corners — top left and bottom right — in `x1⫽y1⫽x2⫽y2` format, where `x1⫽y1` are the coordinates of the top left corner and `x2⫽y2` are the coordinates of the bottom right corner | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [text](../G1ANT.Addons/G1ANT.Language/Structures/TextStructure.md) | This structure stores text values | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [timespan](../G1ANT.Addons/G1ANT.Language/Structures/TimeSpanStructure.md) | This structure stores a time interval value (duration of time or elapsed time) that is measured as a positive or negative number of days, hours, minutes, seconds and milliseconds | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [time](../G1ANT.Addons/G1ANT.Language/Structures/TimeStructure.md) | This structure stores information about time in the following fields | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [variable](../G1ANT.Addons/G1ANT.Language/Structures/VariableStructure.md) | This structure stores names of variables | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
 | [version](../G1ANT.Language.CI/G1ANT.Language/Structures/VersionStructure.md) |  | [G1ANT.Language](../G1ANT.Language.CI/G1ANT.Language/Structures/VersionStructure.md) |
-| [xml](../G1ANT.Addons/G1ANT.Language/Structures/XmlStructure.md) | For example: &lt;?xml&gt;&lt;/xml&gt; | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |
+| [xml](../G1ANT.Addons/G1ANT.Language/Structures/XmlStructure.md) | This structure stores the content of imported XML files as text into G1ANT.Robot using the `text.read` command | [G1ANT.Language](../G1ANT.Addons/G1ANT.Language/Addon.md) |

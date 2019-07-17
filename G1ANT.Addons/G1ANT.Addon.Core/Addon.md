@@ -24,7 +24,7 @@
 | [directory](Commands/DirectoryCommand.md) | This command allows to retrieve directory content and assign it to a variable |
 | [directory.exists](Commands/DirectoryExistsCommand.md) | This command determines whether a specified directory exists |
 | [directory.filescount](Commands/DirectoryFilesCountCommand.md) | This command returns the number of files of certain extension, name or directory in the specified location |
-| [else](Commands/ElseCommand.md) | Testing condition. |
+| [else](Commands/ElseCommand.md) | See: `if` command |
 | [variable](Commands/ExplicitVariableCommand.md) | This command allows to declare a new variable and assign a value to it |
 | [file.copy](Commands/FileCopyCommand.md) | This command copies the specified file to the location specified with the `destinationpath` argument |
 | [file.delete](Commands/FileDeleteCommand.md) | This command deletes the specified file |
@@ -91,9 +91,9 @@
 
 | Name | Description |
 | ---- | ----------- |
-| [file](Triggers/FileTrigger.md) |  |
-| [mail](Triggers/MailTrigger.md) |  |
-| [schedule](Triggers/ScheduleTrigger.md) |  |
+| [file](Triggers/FileTrigger.md) | File Trigger monitors files in a specified folder and provides information whether they were changed, deleted, renamed or there are some new created files |
+| [mail](Triggers/MailTrigger.md) | Mail Trigger provides information about incoming emails |
+| [schedule](Triggers/ScheduleTrigger.md) | Schedule Trigger executes tasks at a specified time |
 
  All Variables
 
@@ -120,7 +120,7 @@
 | [newline](Variables/NewLineVariable.md) | Allows to insert a new line (carriage return and line feed character) into text |
 | [numlock](Variables/NumLockVariable.md) | Switches NumLock on/off |
 | [programwait](Variables/ProgramWaitVariable.md) | When the value is true, the robot executing the program command waits for a program to be ready for input |
-| [screen](Variables/ScreenVariable.md) | Provides information about the current screen resolution. |
+| [screen](Variables/ScreenVariable.md) | ## Syntax |
 | [scrolllock](Variables/ScrollLockVariable.md) | Switches ScrollLock on/off |
 | [timeformat](Variables/TimeFormatVariable.md) | Defines the time display format |
 | [timeoutchrome](Variables/TimeoutChromeVariable.md) | Determines the timeout value (in ms) for the chrome command; the default value is 10000 (10 seconds) |

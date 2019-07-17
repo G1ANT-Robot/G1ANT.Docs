@@ -23,4 +23,4 @@
 
 | Name | Description |
 | ---- | ----------- |
-| [wpath](Structures/WPathStructure.md) |  |
+| [wpath](Structures/WPathStructure.md) | This structure stores WPath information of UI elements and is used by the `ui.` family of commands, `waitfor.ui` included |

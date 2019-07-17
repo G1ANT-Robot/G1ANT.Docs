@@ -24,3 +24,9 @@
 | [selenium.switch](Commands/SeleniumSwitchCommand.md) | This command changes the currently active web browser instance |
 | [selenium.type](Commands/SeleniumTypeCommand.md) | This command types text into a specified element |
 | [selenium.waitforvalue](Commands/SeleniumWaitForValueCommand.md) | This command waits for a Javascript code to return a specified value |
+
+ All Variables
+
+| Name | Description |
+| ---- | ----------- |
+| [timeoutselenium](Variables/TimeoutSeleniumVariable.md) | Determines the timeout value (in ms) for several `selenium.` commands; the default value is 10000 (10 seconds) |

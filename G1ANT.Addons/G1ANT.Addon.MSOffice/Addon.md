@@ -49,6 +49,6 @@
 
 | Name | Description |
 | ---- | ----------- |
-| [OutlookAttachment](Structures/OutlookAttachmentStructure.md) |  |
-| [OutlookFolder](Structures/OutlookFolderStructure.md) |  |
-| [OutlookMail](Structures/OutlookMailStructure.md) |  |
+| [OutlookAttachment](Structures/OutlookAttachmentStructure.md) | This structure stores information about the attachment to a mail message, which was retrieved with the `outlook.getfolder` command |
+| [OutlookFolder](Structures/OutlookFolderStructure.md) | This structure stores information about the Outlook folder, which was retrieved with the `outlook.getfolder` command |
+| [OutlookMail](Structures/OutlookMailStructure.md) | This structure stores information about a mail message, which was retrieved from the Outlook folder with the `outlook.getfolder` command |

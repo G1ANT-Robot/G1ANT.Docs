@@ -21,7 +21,7 @@
 | [directory](../G1ANT.Addons/G1ANT.Addon.Core/Commands/DirectoryCommand.md) | This command allows to retrieve directory content and assign it to a variable | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
 | [directory.exists](../G1ANT.Addons/G1ANT.Addon.Core/Commands/DirectoryExistsCommand.md) | This command determines whether a specified directory exists | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
 | [directory.filescount](../G1ANT.Addons/G1ANT.Addon.Core/Commands/DirectoryFilesCountCommand.md) | This command returns the number of files of certain extension, name or directory in the specified location | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
-| [else](../G1ANT.Addons/G1ANT.Addon.Core/Commands/ElseCommand.md) | Testing condition. | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
+| [else](../G1ANT.Addons/G1ANT.Addon.Core/Commands/ElseCommand.md) | See: `if` command | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
 | [variable](../G1ANT.Addons/G1ANT.Addon.Core/Commands/ExplicitVariableCommand.md) | This command allows to declare a new variable and assign a value to it | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
 | [file.copy](../G1ANT.Addons/G1ANT.Addon.Core/Commands/FileCopyCommand.md) | This command copies the specified file to the location specified with the `destinationpath` argument | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
 | [file.delete](../G1ANT.Addons/G1ANT.Addon.Core/Commands/FileDeleteCommand.md) | This command deletes the specified file | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |

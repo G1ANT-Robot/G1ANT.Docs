@@ -24,7 +24,7 @@
 
 | Name | Description |
 | ---- | ----------- |
-| [abbyycell](Structures/AbbyyCellStructure.md) |  |
-| [abbyydocument](Structures/AbbyyDocumentStructure.md) |  |
-| [abbyypage](Structures/AbbyyPageStructure.md) |  |
-| [abbyyrow](Structures/AbbyyRowStructure.md) |  |
+| [abbyycell](Structures/AbbyyCellStructure.md) | This structure stores information about the location and content of a table cell and has the following fields |
+| [abbyydocument](Structures/AbbyyDocumentStructure.md) | This structure stores documents processed with Abbyy FineReader OCR engine and has two fields |
+| [abbyypage](Structures/AbbyyPageStructure.md) | This structure stores information about a page in a document and has two fields |
+| [abbyyrow](Structures/AbbyyRowStructure.md) | This structure stores information about a row on a page and has five fields |
