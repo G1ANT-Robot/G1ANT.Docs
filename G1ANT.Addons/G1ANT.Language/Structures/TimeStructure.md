@@ -1,6 +1,6 @@
 # time
 
-This structure stores information about time in the following fields:
+This structure stores information about time. It has the following fields:
 
 | Field         | Type    | Description         |
 | ------------- | ------- | ------------------- |

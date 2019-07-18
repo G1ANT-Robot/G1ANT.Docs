@@ -120,7 +120,7 @@
 | [newline](Variables/NewLineVariable.md) | Allows to insert a new line (carriage return and line feed character) into text |
 | [numlock](Variables/NumLockVariable.md) | Switches NumLock on/off |
 | [programwait](Variables/ProgramWaitVariable.md) | When the value is true, the robot executing the program command waits for a program to be ready for input |
-| [screen](Variables/ScreenVariable.md) | ## Syntax |
+| [screen](Variables/ScreenVariable.md) | Provides information about the current screen resolution. |
 | [scrolllock](Variables/ScrollLockVariable.md) | Switches ScrollLock on/off |
 | [timeformat](Variables/TimeFormatVariable.md) | Defines the time display format |
 | [timeoutchrome](Variables/TimeoutChromeVariable.md) | Determines the timeout value (in ms) for the chrome command; the default value is 10000 (10 seconds) |

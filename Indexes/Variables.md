@@ -23,7 +23,7 @@
 | [newline](../G1ANT.Addons/G1ANT.Addon.Core/Variables/NewLineVariable.md) | Allows to insert a new line (carriage return and line feed character) into text | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
 | [numlock](../G1ANT.Addons/G1ANT.Addon.Core/Variables/NumLockVariable.md) | Switches NumLock on/off | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
 | [programwait](../G1ANT.Addons/G1ANT.Addon.Core/Variables/ProgramWaitVariable.md) | When the value is true, the robot executing the program command waits for a program to be ready for input | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
-| [screen](../G1ANT.Addons/G1ANT.Addon.Core/Variables/ScreenVariable.md) | ## Syntax | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
+| [screen](../G1ANT.Addons/G1ANT.Addon.Core/Variables/ScreenVariable.md) | Provides information about the current screen resolution. | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
 | [scrolllock](../G1ANT.Addons/G1ANT.Addon.Core/Variables/ScrollLockVariable.md) | Switches ScrollLock on/off | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
 | [timeformat](../G1ANT.Addons/G1ANT.Addon.Core/Variables/TimeFormatVariable.md) | Defines the time display format | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
 | [timeoutchrome](../G1ANT.Addons/G1ANT.Addon.Core/Variables/TimeoutChromeVariable.md) | Determines the timeout value (in ms) for the chrome command; the default value is 10000 (10 seconds) | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |

@@ -1,6 +1,6 @@
 # date
 
-The date structure stores information about the date in the following fields:
+The date structure stores information about the date. It has the following fields:
 
 | Field       | Type    | Description         |
 | ----------- | ------- | ------------------- |

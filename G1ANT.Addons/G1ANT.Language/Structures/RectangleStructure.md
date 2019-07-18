@@ -1,6 +1,6 @@
 # rectangle
 
-This structure is designed to store coordinates of pixels in the two rectangle's corners — top left and bottom right — in `x1⫽y1⫽x2⫽y2` format, where `x1⫽y1` are the coordinates of the top left corner and `x2⫽y2` are the coordinates of the bottom right corner. The values are separated with the [point separator](../../../appendices/special-characters/point-separator.md) character.
+This structure is designed to store coordinates of two pixels in the top left and the bottom right corner of a rectangle. These coordinates are expressed in `x1⫽y1⫽x2⫽y2` format, where `x1⫽y1` are the coordinates of the top left corner and `x2⫽y2` are the coordinates of the bottom right corner. The values are separated with the [point separator](../../../appendices/special-characters/point-separator.md) character.
 
 The rectangle structure has six fields:
 

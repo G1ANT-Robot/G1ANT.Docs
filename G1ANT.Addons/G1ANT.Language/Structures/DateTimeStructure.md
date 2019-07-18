@@ -1,6 +1,6 @@
 # datetime
 
-The datetime structure stores information about date and time in the following fields:
+The datetime structure stores information about date and time. It has the following fields:
 
 | Field         | Type    | Description         |
 | ------------- | ------- | ------------------- |

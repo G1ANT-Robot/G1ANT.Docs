@@ -1,6 +1,6 @@
 # path
 
-This structure stores paths to files or directories and contains the following fields:
+This structure stores paths to files or directories. It contains the following fields:
 
 | Field         | Type | Description                                                  |
 | ------------- | ---- | ------------------------------------------------------------ |
