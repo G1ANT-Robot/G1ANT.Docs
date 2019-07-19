@@ -24,7 +24,7 @@ Arguments passed to the script for each file in the monitored folder:
 
 ## Example of Defining a File Trigger in Settings
 
-![FileTrigger Example](https://manual.g1ant.com/link/G1ANT.Manual/-assets/filetriggerexample.png)
+![FileTrigger Example](https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Addon.Core/develop/G1ANT.Addon.Core/Triggers/https://raw.githubusercontent.com/G1ANT-Robot/G1ANT.Manual/develop/-assets/filetriggerexample.png)
 
 ## Example of Defining a File Trigger in the Config File
 
