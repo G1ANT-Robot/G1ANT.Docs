@@ -8,7 +8,7 @@ ocrabbyy.getcellinfo documentid ⟦text⟧ tableindex ⟦text⟧ positon ⟦text
 
 ## Description
 
-This command retrieves information about a table cell and returns its coordinates in [point](../../../G1ANT.Robot/G1ANT.Language/G1ANT.Language/Structures/PointStructure.md) format.
+This command retrieves information about a table cell and returns its coordinates in [point](../../G1ANT.Language/Structures/PointStructure.md) format.
 
 > **Note:** The OCR ABBYY addon is in the beta phase and was not tested with ABBYY FineReader Engine 12.
 

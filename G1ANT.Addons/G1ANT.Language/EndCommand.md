@@ -8,7 +8,7 @@ end
 
 ## Description
 
-This command ends a command block started with the following commands: [`for`](../Commands/ForCommand.md), [`foreach`](../Commands/ForEachCommand.md), [`if`](../Commands/IfCommand.md), [`procedure`](../Commands/ProcedureDefinitionCommand.md), [`try`](../Commands/TryCommand.md), [`while`](../Commands/WhileCommand.md).
+This command ends a command block started with the following commands: [`for`](../G1ANT.Addon.Core/Commands/ForCommand.md), [`foreach`](../G1ANT.Addon.Core/Commands/ForEachCommand.md), [`if`](../G1ANT.Addon.Core/Commands/IfCommand.md), [`procedure`](../G1ANT.Addon.Core/Commands/ProcedureDefinitionCommand.md), [`try`](../G1ANT.Addon.Core/Commands/TryCommand.md), [`while`](../G1ANT.Addon.Core/Commands/WhileCommand.md).
 
 ## Example
 
