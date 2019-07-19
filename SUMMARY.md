@@ -8,7 +8,7 @@
 * [Getting Started](getting-started/DESCRIPTION.md)
   * [Installation](getting-started/installation.md)
   * [Support](getting-started/support.md)
-* Tutorials
+* [Tutorials](G1ANT.Tutorials/DESCRIPTION.md)
   * For Beginners
     * [Your First Program](G1ANT.Tutorials/For%20Beginners/010.md)
     * [Texts Containing Spaces](G1ANT.Tutorials/For%20Beginners/020.md)
