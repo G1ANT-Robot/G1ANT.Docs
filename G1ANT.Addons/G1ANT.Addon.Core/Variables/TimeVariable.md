@@ -8,7 +8,7 @@
 
 ## Description
 
-Provides current time in the format defined with the [timeformat](timeformat.md) variable.
+Provides current time in the format defined with the [timeformat](TimeFormatVariable.md) variable.
 
 ## Example
 
