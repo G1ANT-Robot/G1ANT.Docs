@@ -12,7 +12,7 @@ This structure stores current information about a mail message, which was downlo
 |`content`|text| Content of the message |
 |`date`|text| Date of the message |
 |`priority`|integer| Priority of the message |
-|`attachments`|list| Returns a list of elements of the [attachment](attachmentstructure.md) structure allowing to manage attachments |
+|`attachments`|list| Returns a list of elements of the [attachment](AttachmentStructure.md) structure allowing to manage attachments |
 |`isreply`|bool| Is the message a reply |
 
 ## Example
