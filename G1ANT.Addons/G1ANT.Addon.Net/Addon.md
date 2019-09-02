@@ -6,6 +6,10 @@
 | Name | Description |
 | ---- | ----------- |
 | [as400.open](Commands/AS400OpenCommand.md) | This command opens a terminal connection to work with the IBM AS/400 server |
+| [imap.close](Commands/ImapCloseCommand.md) | This command closes IMAP connection to mail server |
+| [imap.getmails](Commands/ImapGetEmailsCommand.md) | This command uses the IMAP protocol to check an email inbox and allows the user to analyze their messages received within a specified time span, with the option to consider only unread messages and/or mark all of the checked ones as read |
+| [imap.open](Commands/ImapOpenCommand.md) | This command uses the IMAP protocol to check an email inbox and allows the user to analyze their messages received within a specified time span, with the option to consider only unread messages and/or mark all of the checked ones as read |
+| [imap.reconnect](Commands/ImapReconnectCommand.md) | This command restores IMAP connection to mail server |
 | [is.accessible](Commands/IsAccessibleCommand.md) | This command checks if a host is accessible |
 | [mail.imap](Commands/MailImapCommand.md) | This command uses the IMAP protocol to check an email inbox and allows the user to analyze their messages received within a specified time span, with the option to consider only unread messages and/or mark all of the checked ones as read |
 | [mail.moveto](Commands/MailMoveToCommand.md) | This command moves a selected message to another folder |

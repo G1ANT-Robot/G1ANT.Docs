@@ -8,9 +8,10 @@
 | [excel.activatesheet](Commands/ExcelActivateSheetCommand.md) | This command activates a specified sheet in the currently active Excel instance |
 | [excel.addsheet](Commands/ExcelAddSheetCommand.md) | This command adds a new sheet to the currently active Excel instance |
 | [excel.close](Commands/ExcelCloseCommand.md) | This command closes the currently active Excel instance |
-| [excel.copy](Commands/ExcelCopyCommand.md) | This command copies the content of the currently selected cells to the clipboard |
+| [excel.copy](Commands/ExcelCopyCommand.md) | This command copies content of the currently selected cells to the clipboard |
 | [excel.duplicaterow](Commands/ExcelDuplicateRowCommand.md) | This command copies a specified row to a specified place |
 | [excel.export](Commands/ExcelExportCommand.md) | This command exports the currently active excel workbook to either a .pdf or an .xps file |
+| [excel.getcolor](Commands/ExcelGetColorCommand.md) | This command gets color of cell in current excel worksheet. |
 | [excel.getformula](Commands/ExcelGetFormulaCommand.md) | This command gets formula from a specified cell |
 | [excel.getrow](Commands/ExcelGetRowCommand.md) | This command gets all used cells of the specified row |
 | [excel.getvalue](Commands/ExcelGetValueCommand.md) | This command gets a value from a specified cell |
@@ -18,13 +19,14 @@
 | [excel.insertcolumn](Commands/ExcelInsertColumnCommand.md) | This command inserts an empty column in a specified place |
 | [excel.insertrow](Commands/ExcelInsertRowCommand.md) | This command inserts an empty row into a specified place |
 | [excel.open](Commands/ExcelOpenCommand.md) | This command opens a new Excel instance |
-| [excel.paste](Commands/ExcelPasteCommand.md) | This command inserts the clipboard content into the currently selected cell or range |
+| [excel.paste](Commands/ExcelPasteCommand.md) | This command inserts clipboard content into the currently selected cell or range |
 | [excel.removecolumn](Commands/ExcelRemoveColumnCommand.md) | This command removes the specified column |
 | [excel.removerow](Commands/ExcelRemoveRowCommand.md) | This command deletes the specified row |
 | [excel.runmacro](Commands/ExcelRunMacroCommand.md) | This command runs a macro in the currently active Excel instance |
 | [excel.runvbcode](Commands/ExcelRunVBCodeCommand.md) | This command runs a Visual Basic macro code in the currently active Excel instance |
 | [excel.save](Commands/ExcelSaveCommand.md) | This command saves the currently active Excel workbook |
-| [excel.selectrange](Commands/ExcelSelectRangeCommand.md) | This command selects a range of cells in the currently active Excel instance |
+| [excel.selectrange](Commands/ExcelSelectRangeCommand.md) | This command selects a range in the currently active Excel instance |
+| [excel.setcolor](Commands/ExcelSetColorCommand.md) | This command sets color of cell in current excel worksheet. |
 | [excel.setvalue](Commands/ExcelSetValueCommand.md) | This command enters a value into a specified cell |
 | [excel.switch](Commands/ExcelSwitchCommand.md) | This command switches to another Excel instance opened by G1ANT.Robot |
 | [outlook.close](Commands/OutlookCloseCommand.md) | This command closes Outlook |

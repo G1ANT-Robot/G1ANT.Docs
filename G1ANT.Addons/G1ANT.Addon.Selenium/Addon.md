@@ -14,6 +14,7 @@
 | [selenium.getattribute](Commands/SeleniumGetAttributeCommand.md) | This command gets a specified attribute of a specified element |
 | [selenium.gettext](Commands/SeleniumGetTextCommand.md) | This command gets text (a value) of a specified element |
 | [selenium.gettitle](Commands/SeleniumGetTitleCommand.md) | This command gets the title of the currently active web browser instance |
+| [selenium.geturl](Commands/SeleniumGetUrlCommand.md) | This command gets url of the current tab |
 | [selenium.newtab](Commands/SeleniumNewTabCommand.md) | This command adds a new tab to the current browser |
 | [selenium.open](Commands/SeleniumOpenCommand.md) | This command opens a new instance of a chosen web browser and optionally navigates to a specified URL address |
 | [selenium.presskey](Commands/SeleniumPressKeyCommand.md) | This command sends a keystroke into a specified element |
