@@ -2,6 +2,7 @@
 
 | Name | Description | Author |
 | ---- | ----------- | ----- |
+| [Appium](../G1ANT.Addons/G1ANT.Addon.Appium/Addon.md) | This Addon is used to automatise mobile operating systems. | G1ANT Robot LTD |
 | [Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) | Core commands, triggers, structures | G1ANT LTD |
 | [GoogleDocs](../G1ANT.Addons/G1ANT.Addon.GoogleDocs/Addon.md) | GoogleDocs Commands | G1ANT LTD |
 | [IExplorer](../G1ANT.Addons/G1ANT.Addon.IExplorer/Addon.md) | IExplorer Commands | G1ANT Robot Ltd |

@@ -70,6 +70,18 @@
     * [Shortcuts](g1ant.robot-window/auxiliary-windows/shortcuts.md)
   * [System Tray Menu](g1ant.robot-window/system-tray.md)
 * G1ANT.Addons
+  * G1ANT.Addon.Appium
+    * [Index Of All Addon Elements](G1ANT.Addons/G1ANT.Addon.Appium/Addon.md)
+    * Commands
+      * [appium.button](G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumButtonCommand.md)
+      * [appium.click](G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumClickCommand.md)
+      * [appium.close](G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumClose.md)
+      * [appium.gettext](G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumGetTextCommand.md)
+      * [appium.gettextfromelements](G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumGetTextFromElementsCommand.md)
+      * [appium.open](G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumOpenCommand.md)
+      * [appium.present](G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumPresentCommand.md)
+      * [appium.scroll](G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumScrollCommand.md)
+      * [appium.sendkeys](G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumSendKeysCommand.md)
   * G1ANT.Addon.Core
     * [Index Of All Addon Elements](G1ANT.Addons/G1ANT.Addon.Core/Addon.md)
     * Commands

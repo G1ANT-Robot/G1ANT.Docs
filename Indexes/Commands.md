@@ -2,6 +2,16 @@
 
 | Name | Description | Addon |
 | ---- | ----------- | ----- |
+| [appium.button](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumButtonCommand.md) | This command clicks choden element. | [G1ANT.Addon.Appium](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumButtonCommand.md) |
+| [appium.click](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumClickCommand.md) | This command clicks chosen element | [G1ANT.Addon.Appium](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumClickCommand.md) |
+| [appium.close](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumCloseCommand.md) | This command closes appium session | [G1ANT.Addon.Appium](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumCloseCommand.md) |
+| [appium.gettext](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumGetTextCommand.md) | This command extracts text from selected element. | [G1ANT.Addon.Appium](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumGetTextCommand.md) |
+| [appium.gettextfromelements](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumGetTextFromElementsCommand.md) | This command extracts text from selected elements. | [G1ANT.Addon.Appium](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumGetTextFromElementsCommand.md) |
+| [appium.keyboard](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumKeyboardCommand.md) | This command clicks choden element. | [G1ANT.Addon.Appium](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumKeyboardCommand.md) |
+| [appium.open](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumOpenCommand.md) | This command initialises appium server. | [G1ANT.Addon.Appium](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumOpenCommand.md) |
+| [appium.present](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumPresentCommand.md) | This command waits for the element to be present on the screen. | [G1ANT.Addon.Appium](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumPresentCommand.md) |
+| [appium.scroll](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumScrollCommand.md) | This command is used to perform scroll action | [G1ANT.Addon.Appium](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumScrollCommand.md) |
+| [appium.sendkeys](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumSendKeysCommand.md) | This command clicks choden element. | [G1ANT.Addon.Appium](../G1ANT.Addons/G1ANT.Addon.Appium/Commands/AppiumSendKeysCommand.md) |
 | [break](../G1ANT.Addons/G1ANT.Addon.Core/Commands/BreakCommand.md) | The `break` command immediately exits current block and continues process execution | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
 | [call](../G1ANT.Addons/G1ANT.Addon.Core/Commands/CallCommand.md) | When the `call` command is used, the robot goes to a specified procedure (block of commands) and executes it until its end is reached | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
 | [checkversion](../G1ANT.Addons/G1ANT.Addon.Core/Commands/CheckVersionCommand.md) | The `checkversion` command allows to check product, file and assembly versions of the file | [G1ANT.Addon.Core](../G1ANT.Addons/G1ANT.Addon.Core/Addon.md) |
