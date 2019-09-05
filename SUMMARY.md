@@ -436,6 +436,7 @@
   * [Environment](appendices/environment.md)
   * [RDP Controller](appendices/rdp-controller.md)
   * [UI Recorder](appendices/ui-recorder.md)
+  * [Appium Addon](appendices/appium-addon.md)
   * [OCR Tesseract Addon](appendices/ocr-tesseract-addon.md)
   * [Including C# Macros](appendices/including-c-macros.md)
   * [Regex](appendices/regex.md)
