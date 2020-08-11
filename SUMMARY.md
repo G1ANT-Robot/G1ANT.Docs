@@ -338,6 +338,56 @@
       * [ocrtesseract.fromscreen](G1ANT.Addons/G1ANT.Addon.Ocr.Tesseract/Commands/OcrTesseractFromScreenCommand.md)
   * G1ANT.Addon.Recorder
     * [Index Of All Addon Elements](G1ANT.Addons/G1ANT.Addon.Recorder/Addon.md)
+  * G1ANT.Addon.Sap
+    * [Index Of All Addon Elements](G1ANT.Addons/G1ANT.Addon.SAP/Addon.md)
+    * Commands
+      * [sap.switch](G1ANT.Addons/G1ANT.Addon.SAP/Commands/SAPSwitchCommand.md)
+      * Application
+        * [sap.isrunning](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Application/SAPIsRunningCommand.md)
+        * [sap.isrunning](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Application/SAPStartCommand.md)
+      * Connections
+        * [sap.closeconnection](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Connections/SAPCloseConnectionCommand.md)
+        * [sap.connect](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Connections/SAPConnectCommand.md)
+        * [sap.getconnections](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Connections/SAPGetConnectionsCommand.md)
+      * Controls
+        * [sap.click](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/SAPClickCommand.md)
+        * [sap.doubleclick](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/SAPDoubleClickCommand.md)
+        * [sap.exists](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/SAPExistsCommand.md)
+        * [sap.findbyname](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/SAPFindByNameCommand.md)
+        * [sap.find](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/SAPFindCommand.md)
+        * [sap.getchild](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/SAPGetChildCommand.md)
+        * [sap.getchildren](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/SAPGetChildrenCommand.md)
+        * [sap.getcontextmenu](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/SAPGetContextMenuCommand.md)
+        * [sap.getparent](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/SAPGetParentCommand.md)
+        * [sap.getparentwindow](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/SAPGetParentWindowCommand.md)
+        * [sap.gettext](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/SAPGetTextCommand.md)
+        * [sap.gettext](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/SAPSetFocusCommand.md)
+        * [sap.gettext](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/SAPSetTextCommand.md)
+        * Tables
+          * [sap.gettablecell](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/Tables/SAPGetTableCellCommand.md)
+          * [sap.gettablecolumn](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/Tables/SAPGetTableColumnCommand.md)
+          * [sap.gettablecolumns](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/Tables/SAPGetTableColumnsCommand.md)
+          * [sap.gettablerow](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/Tables/SAPGetTableRowCommand.md)
+          * [sap.gettablerowcount](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/Tables/SAPGetTableRowCountCommand.md)
+          * [sap.gettablerows](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/Tables/SAPGetTableRowsCommand.md)
+        * Trees
+          * [sap.expandtreenode](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/Trees/SAPExpandTreeNodeCommand.md)
+          * [sap.findtreenode](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/Trees/SAPFindTreeNodeCommand.md)
+          * [sap.getreenodes](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Controls/Trees/SAPGetTreeNodesCommand.md)
+      * Sessions
+        * [sap.getparentwindow](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Sessions/SAPCloseSessionCommand.md)
+        * [sap.getchildren](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Sessions/SAPGetSessionsCommand.md)
+        * [sap.starttransaction](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Sessions/SAPSendCommandCommand.md)
+        * [sap.starttransaction](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Sessions/SAPSetTestToolModeCommand.md)
+        * [sap.starttransaction](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Sessions/SAPStartSessionCommand.md)
+      * Transactions
+        * [sap.endtransaction](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Transactions/SAPEndTransactionCommand.md)
+        * [sap.starttransaction](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Transactions/SAPStartTransactionCommand.md)
+      * Windows
+        * [sap.getparentwindow](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Windows/SAPGetActiveWindowCommand.md)
+        * [sap.sendvkey](G1ANT.Addons/G1ANT.Addon.SAP/Commands/Windows/SAPSendVKeyCommand.md)
+    * Structures
+      * [SapComponent](G1ANT.Addons/G1ANT.Addon.SAP/Structures/SAPComponentStructure.md)
   * G1ANT.Addon.Selenium
     * [Index Of All Addon Elements](G1ANT.Addons/G1ANT.Addon.Selenium/Addon.md)
     * Commands
