@@ -5,8 +5,8 @@
 
 | Name | Description |
 | ---- | ----------- |
-| [addon](G1ANT.Addons/G1ANT.Language/Commands/AddonCommand.md) | Command which defining addon used in the script. |
-| [end](G1ANT.Addons//G1ANT.Language/Commands/EndCommand.md) | This command ends a command block started with the following commands: `for`, `foreach`, `if`, `procedure`, `try`, `while` |
+| [addon](/G1ANT.Addons/G1ANT.Language/Commands/AddonCommand.md) | Command which defining addon used in the script. |
+| [end](/G1ANT.Addons//G1ANT.Language/Commands/EndCommand.md) | This command ends a command block started with the following commands: `for`, `foreach`, `if`, `procedure`, `try`, `while` |
 | [error](https://github.com/G1ANT-Robot/G1ANT.Robot/blob/master/G1ANT.Language/Commands/ErrorCommand.md) | This command allows error handling using variables of error structure |
 
  All Structures
