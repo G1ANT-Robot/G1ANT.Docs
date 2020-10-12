@@ -16,6 +16,7 @@
 | [attachment](https://github.com/G1ANT-Robot/G1ANT.Robot/blob/master/G1ANT.Language/Structures/AttachmentStructure.md) |  |
 | [bool](https://github.com/G1ANT-Robot/G1ANT.Robot/blob/master/G1ANT.Language/Structures/BooleanStructure.md) |  |
 | [date](https://github.com/G1ANT-Robot/G1ANT.Robot/blob/master/G1ANT.Language/Structures/DateStructure.md) |  |
+| [datatable](https://github.com/G1ANT-Robot/G1ANT.Robot/blob/master/G1ANT.Language/Structures/DataTableStructure.md) |  |
 | [datetime](https://github.com/G1ANT-Robot/G1ANT.Robot/blob/master/G1ANT.Language/Structures/DateTimeStructure.md) |  |
 | [dictionary](https://github.com/G1ANT-Robot/G1ANT.Robot/blob/master/G1ANT.Language/Structures/DictionaryStructure.md) |  |
 | [error](https://github.com/G1ANT-Robot/G1ANT.Robot/blob/master/G1ANT.Language/Structures/ErrorStructure.md) |  |
